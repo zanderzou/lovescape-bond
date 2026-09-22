@@ -1,0 +1,34 @@
+# Lovescape Guide
+
+> An independent Lovescape guide to AI companions, custom characters, private chat, image and video generation, Chips, pricing, safety, and alternatives.
+
+Canonical publication: https://lovescape.bond/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://lovescape.bond/): Overview and practical decision guidance.
+- [Blog and comparisons](https://lovescape.bond/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [Lovescape vs Candy AI: Which Companion Studio Fits?](https://lovescape.bond/blog/lovescape-vs-candy-ai/)
+- [Lovescape vs DreamGF: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-dreamgf/)
+- [Lovescape vs GirlfriendGPT: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-girlfriendgpt/)
+- [Lovescape vs OurDream AI: Chat, Images & Video](https://lovescape.bond/blog/lovescape-vs-ourdream-ai/)
+- [Lovescape vs Swipey AI: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-swipey-ai/)
+
+## Publication information
+
+- [About](https://lovescape.bond/about/)
+- [Editorial policy](https://lovescape.bond/editorial-policy/)
+- [Contact](https://lovescape.bond/contact/)
+- [Privacy policy](https://lovescape.bond/privacy/)
+- [Terms](https://lovescape.bond/terms/)
+
+## Optional
+
+- [XML sitemap](https://lovescape.bond/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://lovescape.bond/rss.xml): Published article updates.
+- [Robots policy](https://lovescape.bond/robots.txt): Crawler access directives.
