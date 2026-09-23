@@ -1,5 +1,5 @@
 export const site = {
-  name: "Lovescape Guide",
+  name: "Lovescape",
   domain: "lovescape.bond",
   url: "https://lovescape.bond",
   description: "An independent Lovescape guide to AI companions, custom characters, private chat, image and video generation, Chips, pricing, safety, and alternatives.",
