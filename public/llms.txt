@@ -1,6 +1,6 @@
 # Lovescape
 
-> An independent Lovescape guide to AI companions, custom characters, private chat, image and video generation, Chips, pricing, safety, and alternatives.
+> Independent Lovescape research on fictional AI companions, custom characters, chat, generated media, Chips, privacy, safety, and alternatives.
 
 Canonical publication: https://lovescape.bond/
 
@@ -14,10 +14,10 @@ This is an independent editorial publication, not the official provider. Article
 ## Comparisons
 
 - [Lovescape vs Candy AI: Which Companion Studio Fits?](https://lovescape.bond/blog/lovescape-vs-candy-ai/)
-- [Lovescape vs DreamGF: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-dreamgf/)
-- [Lovescape vs GirlfriendGPT: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-girlfriendgpt/)
+- [Lovescape vs DreamGF: Character Story or Appearance Builder?](https://lovescape.bond/blog/lovescape-vs-dreamgf/)
+- [Lovescape vs GirlfriendGPT: Creator Workflow or Character Library?](https://lovescape.bond/blog/lovescape-vs-girlfriendgpt/)
 - [Lovescape vs OurDream AI: Chat, Images & Video](https://lovescape.bond/blog/lovescape-vs-ourdream-ai/)
-- [Lovescape vs Swipey AI: Features, Strengths, Weaknesses](https://lovescape.bond/blog/lovescape-vs-swipey-ai/)
+- [Lovescape vs Swipey AI: Build a Character or Browse the Feed?](https://lovescape.bond/blog/lovescape-vs-swipey-ai/)
 
 ## Publication information
 

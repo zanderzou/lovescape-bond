@@ -2,7 +2,7 @@
 title: "Lovescape vs Candy AI: Which Companion Studio Fits?"
 description: "Compare Lovescape and Candy AI by character creation, chat, images, voice, video, pricing currencies, privacy, moderation, and the workflow each product prioritizes."
 publishDate: 2026-09-19
-updatedDate: 2026-09-21
+updatedDate: 2026-09-30
 category: "Comparison"
 readTime: "10 min read"
 accent: "rose"
@@ -15,6 +15,8 @@ sources:
     url: "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
   - name: "Lovescape Chips guide"
     url: "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them"
+  - name: "Lovescape adult and likeness boundaries"
+    url: "https://lovescape.com/blog/what-is-lovescape-how-it-works-what-it-isnt-and-what-it-will-never-allow/"
   - name: "Candy AI official website"
     url: "https://candy.ai/"
 ---
@@ -57,13 +59,13 @@ Candy AI also promotes visual media, but exact controls and included quantities 
 
 Use one baseline portrait. Change only the setting, then only the expression, then create one short clip. Score face, hair, body, clothing, color palette, and scene continuity. If identity drifts, more buttons do not solve the core problem.
 
-<div class="article-note"><strong>Consent rule:</strong> create fictional adults and use only original or authorized source media. Never generate deceptive intimate content involving a real person.</div>
+<div class="article-note"><strong>Consent rule:</strong> use fictional adults only. Lovescape says it does not accept photo uploads or real-person likenesses, even if the image is yours. Build from a fictional profile and platform-generated media; never generate deceptive intimate content involving a real person.</div>
 
 ## Voice and relationship feel
 
 Lovescape Premium documentation promotes voice messages and digital voice interaction. Candy AI also markets voice-oriented companion features. Test pronunciation, tone, emotional range, delay, and whether the selected voice fits the written personality.
 
-Do not upload or clone another person's voice without permission. Ask how recordings are processed, stored, and deleted before using a microphone.
+Do not try to clone another person's voice. Ask how recordings are processed, stored, and deleted before using a microphone; do not assume either product accepts voice uploads.
 
 ## Pricing: Chips versus tokens
 

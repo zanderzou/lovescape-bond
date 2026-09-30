@@ -2,7 +2,7 @@
 title: "Lovescape vs OurDream AI: Chat, Images & Video"
 description: "Compare Lovescape and OurDream AI by character creation, chat continuity, image and video workflows, voice, pricing currencies, privacy, consent, and best-fit use cases."
 publishDate: 2026-09-18
-updatedDate: 2026-09-21
+updatedDate: 2026-09-30
 category: "Comparison"
 readTime: "10 min read"
 accent: "violet"
@@ -15,8 +15,14 @@ sources:
     url: "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters"
   - name: "Lovescape Chips guide"
     url: "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them"
+  - name: "Lovescape adult and likeness boundaries"
+    url: "https://lovescape.com/blog/what-is-lovescape-how-it-works-what-it-isnt-and-what-it-will-never-allow/"
   - name: "OurDream AI official website"
     url: "https://ourdream.ai/"
+  - name: "OurDream photo-upload rule"
+    url: "https://help.ourdream.ai/en/articles/11104449"
+  - name: "OurDream DreamCoin uses"
+    url: "https://help.ourdream.ai/en/articles/7861249"
 ---
 
 <p class="article-lede">Lovescape and OurDream AI both occupy the multimedia end of the AI companion category. They are better compared as connected creative systems than as simple chatbots. The useful question is which service preserves a fictional adult character more convincingly as conversation becomes image, voice, and motion.</p>
@@ -69,11 +75,11 @@ Lovescape promotes detailed control over scene, pose, lighting, camera, and appe
 
 ## Move one approved still into video
 
-Use the best still as the motion base. Request one simple action and one camera movement. Complex multi-action prompts make it hard to distinguish model quality from an overloaded brief.
+Use a still generated inside the service as the continuity reference where the product offers that option. Request one simple action and one camera movement. Complex multi-action prompts make it hard to distinguish model quality from an overloaded brief. Do not plan this test around importing a photo: both providers say they do not accept reference-photo uploads.
 
 Check face stability, clothing consistency, hand movement, background warping, loop quality, duration, sound behavior, and cost. Repeat with the same duration and approximate resolution if the interfaces allow it.
 
-<div class="article-note"><strong>Authorized source only:</strong> use an image you created or have explicit permission to animate. Neither platform should be used for non-consensual real-person deepfakes.</div>
+<div class="article-note"><strong>Source boundary:</strong> create a fictional adult inside the platform and use its own generated image where image-to-video is offered. Lovescape and OurDream both prohibit reference-photo uploads; neither should be treated as a real-person deepfake service.</div>
 
 ## Voice and cross-format continuity
 
