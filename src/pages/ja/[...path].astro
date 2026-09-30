@@ -1,0 +1,64 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import PrivateJapaneseLayout from "../../layouts/PrivateJapaneseLayout.astro";
+import { site } from "../../data/site";
+
+const articleIds = [
+  "lovescape-vs-candy-ai",
+  "lovescape-vs-ourdream-ai",
+  "lovescape-vs-girlfriendgpt",
+  "lovescape-vs-dreamgf",
+  "lovescape-vs-swipey-ai",
+];
+const articleLabels: Record<string, string> = {
+  "lovescape-vs-candy-ai": "会話・画像・音声の総額",
+  "lovescape-vs-ourdream-ai": "人物像から場面までの一貫性",
+  "lovescape-vs-girlfriendgpt": "自作キャラクターと発見",
+  "lovescape-vs-dreamgf": "外見の設計と制作の流れ",
+  "lovescape-vs-swipey-ai": "架空人物とフィード型の発見",
+};
+
+export async function getStaticPaths() {
+  if (process.env.LOVESCAPE_PRIVATE_JA_PREVIEW !== "local-only" || process.env.CF_PAGES || process.env.CI) return [];
+  const entries = await getCollection("draftJa");
+  if (entries.length !== 12) throw new Error(`Japanese private preview requires 12 complete pages; found ${entries.length}.`);
+  return entries.map((entry) => ({
+    params: { path: entry.data.route === "/ja/" ? undefined : entry.data.route.slice(4, -1) },
+    props: { entry },
+  }));
+}
+
+interface Props { entry: CollectionEntry<"draftJa">; }
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const isHome = entry.id === "home";
+const isBlog = entry.id === "blog";
+const isArticle = articleIds.includes(entry.id);
+const cards = (await getCollection("draftJa"))
+  .filter((item) => articleIds.includes(item.id) && (!isArticle || item.id !== entry.id))
+  .sort((a, b) => articleIds.indexOf(a.id) - articleIds.indexOf(b.id));
+const pageType = isArticle ? "Article" : isBlog ? "CollectionPage" : "WebPage";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": pageType,
+  name: entry.data.title,
+  headline: isArticle ? entry.data.title : undefined,
+  description: entry.data.description,
+  url: new URL(entry.data.route, site.url).toString(),
+  inLanguage: "ja",
+  isPartOf: { "@type": "WebSite", name: site.name, url: site.url },
+  publisher: { "@type": "Organization", name: site.name, url: site.url },
+};
+---
+<PrivateJapaneseLayout title={entry.data.title} description={entry.data.description} type={isArticle ? "article" : "website"} jsonLd={jsonLd}>
+  <article class:list={["ja-page", { "ja-home": isHome, "ja-blog": isBlog, "ja-article": isArticle, "ja-info": !isHome && !isBlog && !isArticle }]}>
+    {isArticle ? (
+      <>
+        <header class="ja-article-head"><nav class="ja-breadcrumbs" aria-label="パンくずリスト"><a href="/ja/">ホーム</a><span>›</span><a href="/ja/blog/">比較記事</a><span>›</span><span>{articleLabels[entry.id]}</span></nav></header>
+        <div class="ja-article-grid"><div class="ja-content"><Content /></div><aside class="ja-toc" aria-label="この記事の目次"><strong>この記事の内容</strong>{headings.filter((heading) => heading.depth === 2).map((heading) => <a href={`#${heading.slug}`}>{heading.text}</a>)}</aside></div>
+        <p class="ja-source-note">この比較は各社の公開資料と、読者が自分で再現できる確認手順に基づきます。実測していない性能や固定価格を保証するものではありません。</p>
+      </>
+    ) : <div class="ja-content"><Content /></div>}
+    {(isHome || isBlog || isArticle) && <section class="ja-link-grid" aria-label="Lovescapeの比較記事"><h2>{isArticle ? "続けて比較する" : "五つの比較から選ぶ"}</h2>{cards.map((card, index) => <a class="ja-link-card" href={card.data.route}><small>比較 {String(index + 1).padStart(2, "0")}</small><strong>{card.data.title.split("｜")[0]}</strong><span>{articleLabels[card.id]}</span></a>)}</section>}
+  </article>
+</PrivateJapaneseLayout>

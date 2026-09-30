@@ -1,0 +1,71 @@
+---
+import Analytics from "../components/Analytics.astro";
+import { site } from "../data/site";
+import "../styles.css";
+import "../styles-ja-preview.css";
+
+interface Props {
+  title: string;
+  description: string;
+  type?: "website" | "article";
+  jsonLd?: Record<string, unknown>;
+}
+const { title, description, type = "website", jsonLd } = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+const image = `${site.url}/assets/lovescape-user-evening-editorial.jpg`;
+const links = [
+  { href: "/ja/", label: "ホーム" },
+  { href: "/ja/blog/", label: "比較記事" },
+  { href: "/ja/about/", label: "このサイトについて" },
+  { href: "/ja/privacy/", label: "プライバシー" },
+];
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="googlebot" content="noindex,nofollow" />
+    <meta name="bingbot" content="noindex,nofollow" />
+    <meta name="theme-color" content="#0b0b0b" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content="Lovescapeの成人向け架空キャラクターに関する独立した比較記事" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="ja-preview">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <div class="ja-preview-flag" role="note">非公開プレビュー · 検証用 · 検索対象外</div>
+    <header class="ja-site-header">
+      <a class="ja-brand" href="/ja/" aria-label="Lovescape 日本語ホーム"><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a>
+      <nav class="ja-desktop-nav" aria-label="日本語の主なメニュー">{links.map((link) => <a href={link.href}>{link.label}</a>)}</nav>
+      <a class="ja-official" href={site.officialUrl} target="_blank" rel="noopener noreferrer">公式サイトへ ↗</a>
+      <details class="ja-mobile-nav"><summary aria-label="メニューを開く">メニュー <span>☰</span></summary><nav aria-label="モバイルの主なメニュー">{links.map((link) => <a href={link.href}>{link.label}</a>)}<a href={site.officialUrl} target="_blank" rel="noopener noreferrer">公式サイトへ ↗</a></nav></details>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="ja-site-footer">
+      <div class="ja-footer-grid">
+        <div><a class="ja-brand" href="/ja/"><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a><p>架空の成人向けAIキャラクター、会話、画像、Chipsと代替サービスを、一次資料から調べる独立した情報サイトです。Lovescapeの公式運営ではありません。</p></div>
+        <div><h2>比較する</h2><a href="/ja/blog/lovescape-vs-candy-ai/">Candy AIとの比較</a><a href="/ja/blog/lovescape-vs-ourdream-ai/">OurDream AIとの比較</a><a href="/ja/blog/lovescape-vs-girlfriendgpt/">GirlfriendGPTとの比較</a><a href="/ja/blog/lovescape-vs-dreamgf/">DreamGFとの比較</a><a href="/ja/blog/lovescape-vs-swipey-ai/">Swipey AIとの比較</a></div>
+        <div><h2>サイト情報</h2><a href="/ja/about/">このサイトについて</a><a href="/ja/editorial-policy/">編集方針</a><a href="/ja/privacy/">プライバシー</a><a href="/ja/terms/">利用条件</a><a href="/ja/contact/">連絡先</a></div>
+        <div><h2>外部サイト</h2><a href={site.officialUrl} target="_blank" rel="noopener noreferrer">Lovescape公式 ↗</a><a href="https://www.playbox.com/?ref=zanderzou" target="_blank" rel="sponsored nofollow noopener noreferrer">広告・紹介リンク：Playbox ↗</a><p>製品の価格や規則は、申込前に公式画面で確認してください。</p></div>
+      </div>
+      <div class="ja-footer-bottom"><span>© Lovescape 独立編集サイト</span><span>18歳以上 · 私的な会話や画像は収集しません</span><a href="/">English</a></div>
+    </footer>
+    <Analytics locale="ja" />
+  </body>
+</html>

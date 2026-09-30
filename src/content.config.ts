@@ -17,4 +17,17 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const draftJa = defineCollection({
+  loader: process.env.LOVESCAPE_PRIVATE_JA_PREVIEW === "local-only"
+    ? glob({ pattern: ["*.md", "!README.md", "!SOURCES.md"], base: "./src/drafts/ja" })
+    : { name: "private-ja-disabled", async load({ store }) { store.clear(); } },
+  schema: z.object({
+    route: z.string().startsWith("/ja/"),
+    title: z.string().min(1),
+    description: z.string().min(1),
+    status: z.literal("private-draft"),
+    sources: z.array(z.string().url()).optional(),
+  }),
+});
+
+export const collections = { blog, draftJa };

@@ -1,11 +1,13 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
+const privateJaPreview = process.env.LOVESCAPE_PRIVATE_JA_PREVIEW === "local-only";
+
 export default defineConfig({
   site: "https://lovescape.bond",
   output: "static",
-  outDir: "./dist/client",
+  outDir: privateJaPreview ? "./dist/private-ja-preview" : "./dist/client",
   trailingSlash: "always",
-  integrations: [sitemap()],
+  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.startsWith("/ja/") })],
   build: { format: "directory" },
 });

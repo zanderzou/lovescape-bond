@@ -9,8 +9,10 @@
   "scripts": {
     "dev": "node scripts/run-astro.mjs dev",
     "build": "node scripts/run-astro.mjs build && node scripts/prepare-sites-build.mjs",
+    "build:private:ja": "node scripts/build-private-ja.mjs",
     "preview": "node scripts/run-astro.mjs preview",
     "test:seo": "node scripts/audit-static.mjs && node scripts/audit-outbound-links.mjs",
+    "test:private:ja": "node scripts/audit-private-ja.mjs",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "generate:llms": "node scripts/generate-llms.mjs",
     "test:llms": "node scripts/generate-llms.mjs --check",
