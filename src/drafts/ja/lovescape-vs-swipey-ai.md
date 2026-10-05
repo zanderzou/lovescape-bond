@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/lovescape-vs-swipey-ai/
-title: Lovescape vs Swipey AI｜架空人物を作るか、フィードから見つけるか
-description: LovescapeとSwipey AIを、架空キャラクター制作、発見フィード、認証済みクリエイター、ChipsとHearts、通話履歴の扱いから比較します。
+title: "Lovescape vs Swipey AI｜架空人物を作るか、フィードから見つけるか"
+description: "LovescapeとSwipey AIを、架空キャラクター制作、発見フィード、認証済みクリエイター、ChipsとHearts、通話履歴の扱いから比較します。"
 status: private-draft
 sources:
   - https://help.lovescape.com/hc/en-us/articles/26017197133713-What-Is-Lovescape-AI-Companions-Chat-Image-Video-Generation-Platform

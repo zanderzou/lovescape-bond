@@ -11,6 +11,18 @@ This is an independent editorial publication, not the official provider. Article
 - [Homepage](https://lovescape.bond/): Overview and practical decision guidance.
 - [Blog and comparisons](https://lovescape.bond/blog/): Browse the editorial article collection.
 
+## Language editions
+
+- [Japanese](https://lovescape.bond/ja/): Localized homepage, publication pages, and five comparison articles.
+- [Korean](https://lovescape.bond/ko/): Localized homepage, publication pages, and five comparison articles.
+- [Traditional Chinese](https://lovescape.bond/zh-hant/): Localized homepage, publication pages, and five comparison articles.
+- [Spanish](https://lovescape.bond/es/): Localized homepage, publication pages, and five comparison articles.
+- [Brazilian Portuguese](https://lovescape.bond/pt-br/): Localized homepage, publication pages, and five comparison articles.
+- [Russian](https://lovescape.bond/ru/): Localized homepage, publication pages, and five comparison articles.
+- [German](https://lovescape.bond/de/): Localized homepage, publication pages, and five comparison articles.
+- [French](https://lovescape.bond/fr/): Localized homepage, publication pages, and five comparison articles.
+- [Arabic](https://lovescape.bond/ar/): Localized homepage, publication pages, and five comparison articles.
+
 ## Comparisons
 
 - [Lovescape vs Candy AI: Which Companion Studio Fits?](https://lovescape.bond/blog/lovescape-vs-candy-ai/)

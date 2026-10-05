@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/lovescape-vs-candy-ai/
-title: Lovescape vs Candy AI｜会話・画像・音声の総額を比べる
-description: LovescapeとCandy AIを、架空キャラクターの継続性、画像・音声の利用回数、Chipsとトークン、契約時の実支払額から比較します。
+title: "Lovescape vs Candy AI｜会話・画像・音声の総額を比べる"
+description: "LovescapeとCandy AIを、架空キャラクターの継続性、画像・音声の利用回数、Chipsとトークン、契約時の実支払額から比較します。"
 status: private-draft
 sources:
   - https://lovescape.com/blog/what-is-lovescape-how-it-works-what-it-isnt-and-what-it-will-never-allow/

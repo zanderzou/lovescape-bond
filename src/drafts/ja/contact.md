@@ -1,7 +1,7 @@
 ---
 route: /ja/contact/
-title: 連絡先と訂正依頼 | Lovescape
-description: Lovescapeの独立比較サイトへの訂正・出典更新・権利に関する連絡方法と、メール受信の未設定状況を説明します。
+title: "連絡先と訂正依頼 | Lovescape"
+description: "Lovescapeの独立比較サイトへの訂正・出典更新・権利に関する連絡方法と、メール受信の未設定状況を説明します。"
 status: private-draft
 ---
 

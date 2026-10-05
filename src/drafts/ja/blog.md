@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/
-title: Lovescapeの比較記事
-description: LovescapeとCandy AI、OurDream AI、GirlfriendGPT、DreamGF、Swipey AIを、異なる利用目的ごとに比べる五つの独立した記事。
+title: "Lovescapeの比較記事"
+description: "LovescapeとCandy AI、OurDream AI、GirlfriendGPT、DreamGF、Swipey AIを、異なる利用目的ごとに比べる五つの独立した記事。"
 status: private-draft
 ---
 

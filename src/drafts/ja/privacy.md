@@ -1,7 +1,7 @@
 ---
 route: /ja/privacy/
-title: プライバシー | Lovescape
-description: Lovescapeの独立比較サイトが扱うアクセス情報、同意制Google Analytics、外部リンク、収集しない機微情報を説明します。
+title: "プライバシー | Lovescape"
+description: "Lovescapeの独立比較サイトが扱うアクセス情報、同意制Google Analytics、外部リンク、収集しない機微情報を説明します。"
 status: private-draft
 ---
 

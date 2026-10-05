@@ -1,4 +1,5 @@
 ---
+import { publicEditionsPublished } from "../../data/private-locales";
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import PrivateJapaneseLayout from "../../layouts/PrivateJapaneseLayout.astro";
 import { site } from "../../data/site";
@@ -19,7 +20,7 @@ const articleLabels: Record<string, string> = {
 };
 
 export async function getStaticPaths() {
-  if (process.env.LOVESCAPE_PRIVATE_JA_PREVIEW !== "local-only" || process.env.CF_PAGES || process.env.CI) return [];
+  if (!publicEditionsPublished && (process.env.LOVESCAPE_PRIVATE_JA_PREVIEW !== "local-only" || process.env.CF_PAGES || process.env.CI)) return [];
   const entries = await getCollection("draftJa");
   if (entries.length !== 12) throw new Error(`Japanese private preview requires 12 complete pages; found ${entries.length}.`);
   return entries.map((entry) => ({
@@ -46,6 +47,8 @@ const jsonLd = {
   description: entry.data.description,
   url: new URL(entry.data.route, site.url).toString(),
   inLanguage: "ja",
+  mainEntityOfPage: isArticle ? new URL(entry.data.route, site.url).toString() : undefined,
+  author: isArticle ? { "@type": "Organization", name: site.author, url: site.url } : undefined,
   isPartOf: { "@type": "WebSite", name: site.name, url: site.url },
   publisher: { "@type": "Organization", name: site.name, url: site.url },
 };

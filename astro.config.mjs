@@ -8,6 +8,6 @@ export default defineConfig({
   output: "static",
   outDir: privateJaPreview ? "./dist/private-ja-preview" : "./dist/client",
   trailingSlash: "always",
-  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.startsWith("/ja/") })],
+  integrations: [sitemap()],
   build: { format: "directory" },
 });

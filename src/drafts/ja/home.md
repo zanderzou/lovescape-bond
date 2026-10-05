@@ -1,7 +1,7 @@
 ---
 route: /ja/
-title: Lovescape
-description: LovescapeのAIキャラクターチャット、画像生成、Chips、料金の考え方、安全規則を整理。Candy AIなど五つのサービスと、目的別に比較できる独立した情報ページです。
+title: "Lovescape"
+description: "LovescapeのAIキャラクターチャット、画像生成、Chips、料金の考え方、安全規則を整理。Candy AIなど五つのサービスと、目的別に比較できる独立した情報ページです。"
 status: private-draft
 ---
 

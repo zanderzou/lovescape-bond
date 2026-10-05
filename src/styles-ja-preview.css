@@ -1,4 +1,13 @@
 /* Private Japanese editorial preview. Kept separate from the public English design. */
+/* This isolated visual system also serves unpublished locale drafts. */
+[dir="rtl"] .ja-preview{text-align:right}
+[dir="rtl"] .ja-preview :is(.ja-toc,.ja-source-note,blockquote){border-left:0;border-right:3px solid #e077a9}
+[dir="rtl"] .ja-preview .ja-content :is(th,td){text-align:right}
+[dir="rtl"] .ja-preview .ja-mobile-nav nav{right:auto;left:0}
+[dir="rtl"] .ja-preview :is(code,.ja-brand){direction:ltr;unicode-bidi:isolate}
+[dir="rtl"] .ja-preview .ja-content :is(h1,h2,h3){letter-spacing:normal}
+.ja-footer-bottom details a{unicode-bidi:isolate}
+.ja-footer-bottom details a{display:block;padding:5px 0}
 .ja-preview{--ja-ink:#fff8fc;--ja-dim:#c6b4c2;--ja-line:rgba(255,255,255,.17);--ja-accent:#ff729e;background:#09070e;color:var(--ja-ink);font-family:system-ui,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7;overflow-wrap:anywhere}
 .ja-preview h1,.ja-preview h2,.ja-preview h3{font-family:inherit;letter-spacing:-.035em}
 .ja-preview a:focus-visible,.ja-preview summary:focus-visible{outline:3px solid #f8a9d0;outline-offset:4px}
@@ -18,3 +27,19 @@
 .ja-site-footer{margin:55px 0 0;border-top:1px solid var(--ja-line);background:#08060c}.ja-footer-grid{width:min(calc(100% - 44px),1100px);margin:auto;padding:57px 0;display:grid;grid-template-columns:1.5fr 1fr .8fr 1fr;gap:34px}.ja-footer-grid>div{display:flex;flex-direction:column;align-items:flex-start;gap:7px}.ja-footer-grid>div:first-child p,.ja-footer-grid>div:last-child p{color:#aa95a7;font-size:.8rem;line-height:1.7;margin:12px 0 0}.ja-footer-grid h2{color:#f7d6e5;font-size:.85rem;margin:0 0 12px}.ja-footer-grid a:not(.ja-brand){color:#c7b0c1;font-size:.82rem}.ja-footer-bottom{width:min(calc(100% - 44px),1100px);margin:auto;padding:22px 0;border-top:1px solid var(--ja-line);display:flex;justify-content:space-between;gap:15px;color:#988595;font-size:.74rem}
 @media(max-width:900px){.ja-desktop-nav,.ja-official{display:none}.ja-site-header{justify-content:space-between}.ja-mobile-nav{display:block;position:relative}.ja-mobile-nav summary{list-style:none;cursor:pointer;border:1px solid var(--ja-line);border-radius:10px;padding:9px 11px;font-size:.82rem}.ja-mobile-nav summary::-webkit-details-marker{display:none}.ja-mobile-nav summary span{margin-left:4px}.ja-mobile-nav nav{position:absolute;right:0;top:47px;width:min(290px,calc(100vw - 40px));display:flex;flex-direction:column;padding:10px;border:1px solid var(--ja-line);border-radius:12px;background:#18101c;box-shadow:0 20px 50px #0009}.ja-mobile-nav nav a{padding:10px;border-bottom:1px solid var(--ja-line)}.ja-mobile-nav nav a:last-child{border-bottom:0}.ja-article-grid{grid-template-columns:1fr}.ja-toc{display:none}.ja-footer-grid{grid-template-columns:1fr 1fr}.ja-footer-grid>div:first-child{grid-column:1/-1}}
 @media(max-width:650px){.ja-page,.ja-home,.ja-blog,.ja-info{width:calc(100% - 32px);padding:24px 0 8px}.ja-preview .ja-content{font-size:.99rem;line-height:1.8}.ja-content>h1:first-child{font-size:clamp(2.15rem,9vw,3.15rem)}.ja-content h2{font-size:1.47rem;margin:35px 0 10px}.ja-content h3{font-size:1.2rem}.ja-home .ja-content{padding:285px 8px 0}.ja-home .ja-content:before{height:330px;background:linear-gradient(0deg,#0b0710 0%,rgba(11,7,16,.35) 62%,transparent 100%),url('/assets/lovescape-user-evening-editorial.jpg') center 20%/auto 100% no-repeat;background-color:#17101b}.ja-home .ja-content>h1:first-child,.ja-home .ja-content>p:first-of-type{max-width:100%}.ja-home .ja-content>h1:first-child{font-size:2.65rem}.ja-home .ja-content>h2:first-of-type{margin-top:39px}.ja-link-grid{grid-template-columns:1fr}.ja-link-grid h2{grid-column:auto}.ja-article-head{padding:15px 0 20px}.ja-footer-grid{grid-template-columns:1fr;gap:28px;padding:40px 0}.ja-footer-grid>div:first-child{grid-column:auto}.ja-footer-bottom{flex-direction:column;padding:17px 0}.ja-content th,.ja-content td{min-width:145px}}
+
+/* Keep the illustration in normal flow: variable-length native copy must not
+   collide with a fixed-height hero background or the next section. */
+.ja-home .ja-content{padding:0;display:flow-root}
+.ja-home .ja-content:before{position:static;display:block;float:right;inset:auto;width:34%;height:420px;margin:0 0 26px 32px;background:url('/assets/lovescape-user-evening-editorial.jpg') center/contain no-repeat #15101c;box-shadow:none}
+.ja-home .ja-content>h1:first-child{padding-top:35px;font-size:clamp(2.6rem,4.8vw,4.5rem);max-width:none}
+.ja-home .ja-content>p:first-of-type{max-width:none}
+.ja-home .ja-content>h2:first-of-type{clear:both;margin-top:28px}
+[dir="rtl"] .ja-preview .ja-home .ja-content:before{float:left;margin:0 32px 26px 0}
+.ja-content h2{margin-top:30px;font-size:clamp(1.4rem,2vw,1.8rem)}
+.ja-content h3{margin-top:23px}
+.ja-content>h1:first-child{hyphens:auto;overflow-wrap:anywhere}
+.ja-info .ja-content>h1:first-child{font-size:clamp(1.6rem,4vw,3.2rem)}
+.ja-link-grid{margin:28px 0}
+.ja-site-footer{margin-top:30px}
+@media(max-width:650px){.ja-home .ja-content:before,[dir="rtl"] .ja-preview .ja-home .ja-content:before{float:none;width:100%;height:330px;margin:0 0 20px}.ja-home .ja-content>h1:first-child{padding-top:0;font-size:2.6rem}.ja-home .ja-content>h2:first-of-type{margin-top:26px}.ja-content h2{margin-top:26px;font-size:1.4rem}}

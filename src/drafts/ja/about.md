@@ -1,7 +1,7 @@
 ---
 route: /ja/about/
-title: このサイトについて | Lovescape
-description: Lovescapeを検討する成人に向けた独立した比較サイトの目的、調査方法、運営元との関係、情報の更新方針を説明します。
+title: "このサイトについて | Lovescape"
+description: "Lovescapeを検討する成人に向けた独立した比較サイトの目的、調査方法、運営元との関係、情報の更新方針を説明します。"
 status: private-draft
 ---
 

@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/lovescape-vs-ourdream-ai/
-title: Lovescape vs OurDream AI｜一人のキャラクターを場面まで育てるなら
-description: LovescapeとOurDream AIを、架空人物の作成、会話から画像・動画への一貫性、追加通貨、公開設定と写真アップロードの禁止事項で比較します。
+title: "Lovescape vs OurDream AI｜一人のキャラクターを場面まで育てるなら"
+description: "LovescapeとOurDream AIを、架空人物の作成、会話から画像・動画への一貫性、追加通貨、公開設定と写真アップロードの禁止事項で比較します。"
 status: private-draft
 sources:
   - https://help.lovescape.com/hc/en-us/articles/26017175175569-How-to-Create-an-AI-Character-on-Lovescape-Step-by-Step-Guide

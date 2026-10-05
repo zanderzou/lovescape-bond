@@ -1,0 +1,33 @@
+---
+import { publicEditionsPublished } from "../../data/private-locales";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import PrivateLocaleLayout from "../../layouts/PrivateLocaleLayout.astro";
+import { privatePreviewEnabled, privateDraftLocales, privateLocaleUi, type PrivateLocale } from "../../data/private-locales";
+import { site } from "../../data/site";
+export async function getStaticPaths() {
+  if (!publicEditionsPublished && !privatePreviewEnabled()) return [];
+  const entries = await getCollection("draftLocales");
+  for (const locale of privateDraftLocales) {
+    if (entries.filter(entry => entry.data.locale === locale).length !== 12) throw new Error(`Incomplete ${locale} private edition; requires 12 pages.`);
+  }
+  return entries.map(entry => ({ params: { locale: entry.data.locale, path: entry.data.route.replace(/^\/[^/]+\//, "").replace(/\/$/, "") || undefined }, props: { entry } }));
+}
+interface Props { entry: CollectionEntry<"draftLocales">; }
+const { entry } = Astro.props;
+const locale = entry.data.locale as PrivateLocale;
+const ui = privateLocaleUi[locale];
+const { Content, headings } = await render(entry);
+const tail = entry.data.route.split("/").filter(Boolean).at(-1);
+const isHome = entry.data.route === `/${locale}/`;
+const isBlog = tail === "blog";
+const isArticle = entry.data.route.includes("/blog/") && !isBlog;
+const cards = (await getCollection("draftLocales")).filter(item => item.data.locale === locale && item.data.route.includes("/blog/") && item.data.route !== `/${locale}/blog/` && item.id !== entry.id);
+const jsonLd = { "@context": "https://schema.org", "@type": isArticle ? "Article" : isBlog ? "CollectionPage" : "WebPage", name: entry.data.title, headline: isArticle ? entry.data.title : undefined, description: entry.data.description, url: new URL(entry.data.route, site.url).toString(), inLanguage: ui.lang, mainEntityOfPage: isArticle ? new URL(entry.data.route, site.url).toString() : undefined, author: isArticle ? { "@type": "Organization", name: site.author, url: site.url } : undefined, isPartOf: { "@type": "WebSite", name: "Lovescape", url: site.url }, publisher: { "@type": "Organization", name: site.author, url: site.url } };
+---
+<PrivateLocaleLayout locale={locale} title={entry.data.title} description={entry.data.description} article={isArticle} jsonLd={jsonLd}>
+  <article class:list={["ja-page", { "ja-home": isHome, "ja-blog": isBlog, "ja-article": isArticle, "ja-info": !isHome && !isBlog && !isArticle }]}>
+    {isArticle ? <div class="ja-article-grid"><div class="ja-content"><Content/></div><aside class="ja-toc" aria-label={ui.toc}><strong>{ui.toc}</strong>{headings.filter(item => item.depth === 2).map(item => <a href={`#${item.slug}`}>{item.text}</a>)}</aside></div> : <div class="ja-content"><Content/></div>}
+    {isArticle && <p class="ja-source-note">{ui.sourceNote}</p>}
+    {(isHome || isBlog || isArticle) && <section class="ja-link-grid"><h2>{ui.more}</h2>{cards.map((card, index) => <a class="ja-link-card" href={card.data.route}><small>{ui.comparison} {String(index + 1).padStart(2, "0")}</small><strong>{card.data.title}</strong><span>{card.data.description}</span></a>)}</section>}
+  </article>
+</PrivateLocaleLayout>

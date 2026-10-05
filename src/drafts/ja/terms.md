@@ -1,7 +1,7 @@
 ---
 route: /ja/terms/
-title: 利用条件 | Lovescape
-description: 独立したLovescape情報サイトの利用範囲、第三者サービスへのリンク、情報の変更と権利に関する条件を説明します。
+title: "利用条件 | Lovescape"
+description: "独立したLovescape情報サイトの利用範囲、第三者サービスへのリンク、情報の変更と権利に関する条件を説明します。"
 status: private-draft
 ---
 

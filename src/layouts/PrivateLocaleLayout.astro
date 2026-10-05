@@ -1,0 +1,39 @@
+---
+import { site } from "../data/site";
+import { privateLocaleUi, privateDraftLocales, type PrivateLocale } from "../data/private-locales";
+import PrivateLocaleAnalytics from "../components/PrivateLocaleAnalytics.astro";
+import "../styles.css";
+import "../styles-ja-preview.css";
+interface Props { locale: PrivateLocale; title: string; description: string; article?: boolean; jsonLd: Record<string, unknown>; }
+const { locale, title, description, article = false, jsonLd } = Astro.props;
+const ui = privateLocaleUi[locale];
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+const image = `${site.url}/assets/lovescape-user-evening-editorial.jpg`;
+const info = [["about", ui.about], ["contact", ui.contact], ["editorial-policy", ui.editorial], ["privacy", ui.privacy], ["terms", ui.terms]];
+const promotion = "https://www.playbox.com/?ref=zanderzou";
+const localePath = Astro.url.pathname.replace(/^\/[^/]+/, "");
+---
+<!doctype html><html lang={ui.lang} dir={ui.dir}><head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="robots" content="noindex,nofollow"/><meta name="googlebot" content="noindex,nofollow"/><meta name="bingbot" content="noindex,nofollow"/>
+  <title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/><link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+  <meta property="og:type" content={article ? "article" : "website"}/><meta property="og:site_name" content="Lovescape"/><meta property="og:locale" content={ui.og}/>
+  <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:image" content={image}/><meta property="og:image:alt" content={ui.imageAlt}/>
+  <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={title}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={image}/><meta name="twitter:image:alt" content={ui.imageAlt}/>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}/>
+</head><body class="ja-preview">
+  <a class="skip-link" href="#main">{ui.skip}</a>
+  <header class="ja-site-header"><a class="ja-brand" href={`/${locale}/`}><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a>
+    <nav class="ja-desktop-nav" aria-label={ui.navigation}><a href={`/${locale}/`}>{ui.home}</a><a href={`/${locale}/blog/`}>{ui.blog}</a><a href={`/${locale}/about/`}>{ui.about}</a></nav>
+    <a class="ja-official" href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a>
+    <details class="ja-mobile-nav"><summary>{ui.menu} ☰</summary><nav aria-label={ui.navigation}><a href={`/${locale}/`}>{ui.home}</a><a href={`/${locale}/blog/`}>{ui.blog}</a><a href={`/${locale}/privacy/`}>{ui.privacy}</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a></nav></details>
+  </header>
+  <main id="main"><slot/></main>
+  <footer class="ja-site-footer"><div class="ja-footer-grid">
+    <div><a class="ja-brand" href={`/${locale}/`}>Lovescape</a><p>{ui.independent}</p></div>
+    <div><h2>{ui.blog}</h2><a href={`/${locale}/blog/`}>{ui.more}</a></div>
+    <div><h2>{ui.about}</h2>{info.map(([key, label]) => <a href={`/${locale}/${key}/`}>{label}</a>)}</div>
+    <div><a href={site.officialUrl} rel="noopener noreferrer" target="_blank">{ui.official} ↗</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a><p>{ui.sponsor}</p></div>
+  </div><div class="ja-footer-bottom"><span>© Lovescape</span><span>{ui.adults}</span><details><summary>{ui.language}</summary><a href={localePath || "/"}>English</a><a href={`/ja${localePath}`}>日本語</a>{privateDraftLocales.map(slug => <a href={`/${slug}${localePath}`}>{privateLocaleUi[slug].name}</a>)}</details></div></footer>
+  <PrivateLocaleAnalytics locale={locale}/>
+</body></html>

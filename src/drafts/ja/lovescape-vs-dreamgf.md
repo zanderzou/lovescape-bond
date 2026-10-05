@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/lovescape-vs-dreamgf/
-title: Lovescape vs DreamGF｜外見の設計か、会話から続く制作か
-description: LovescapeとDreamGFを、架空キャラクターの外見・性格設定、会話、生成画像、追加費用、安全規則で比べます。固定価格や実測結果は断定しません。
+title: "Lovescape vs DreamGF｜外見の設計か、会話から続く制作か"
+description: "LovescapeとDreamGFを、架空キャラクターの外見・性格設定、会話、生成画像、追加費用、安全規則で比べます。固定価格や実測結果は断定しません。"
 status: private-draft
 sources:
   - https://help.lovescape.com/hc/en-us/articles/26017197133713-What-Is-Lovescape-AI-Companions-Chat-Image-Video-Generation-Platform

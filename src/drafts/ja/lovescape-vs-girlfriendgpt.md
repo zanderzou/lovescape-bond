@@ -1,7 +1,7 @@
 ---
 route: /ja/blog/lovescape-vs-girlfriendgpt/
-title: Lovescape vs GirlfriendGPT｜自作の一人か、作者の多いカタログか
-description: LovescapeとGirlfriendGPTを、架空キャラクター制作、既存キャラクターの発見、会話・画像の継続性、公開範囲と運営元の規則で比較します。
+title: "Lovescape vs GirlfriendGPT｜自作の一人か、作者の多いカタログか"
+description: "LovescapeとGirlfriendGPTを、架空キャラクター制作、既存キャラクターの発見、会話・画像の継続性、公開範囲と運営元の規則で比較します。"
 status: private-draft
 sources:
   - https://help.lovescape.com/hc/en-us/articles/26017197133713-What-Is-Lovescape-AI-Companions-Chat-Image-Video-Generation-Platform
