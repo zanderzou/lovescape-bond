@@ -1,33 +1,5 @@
 ---
-import { site } from "../data/site";
-import { measurementId } from "../data/analytics";
-import { privateLocaleUi, type PrivateLocale } from "../data/private-locales";
-interface Props { locale: PrivateLocale; }
-const { locale } = Astro.props;
-const copy = privateLocaleUi[locale].analytics;
-const domain = new URL(site.url).hostname;
+import Analytics from "./Analytics.astro";
+interface Props { locale?: string; }
 ---
-{measurementId && <div id="site-analytics" data-measurement-id={measurementId} data-domain={domain} data-status-privacy-signal={copy.privacySignal} data-status-granted={copy.granted} data-status-denied={copy.denied}>
-  <div class="analytics-footer"><button type="button" id="analytics-settings">{copy.preferences}</button></div>
-  <aside id="analytics-notice" role="region" aria-label={copy.preferences} hidden>
-    <div><strong>{copy.optional}</strong><p>{copy.question} <a href={`/${locale}/privacy/`}>{copy.privacy}</a>.</p><p id="analytics-status" aria-live="polite"></p></div>
-    <div class="analytics-actions"><button type="button" id="analytics-decline">{copy.decline}</button><button type="button" id="analytics-accept">{copy.accept}</button></div>
-  </aside>
-  <script is:inline src="/analytics-consent.js"></script>
-</div>}
-<style>
-  .analytics-footer{padding:14px 24px;text-align:center}
-  #analytics-settings{font:inherit;font-size:12px;color:inherit;background:none;border:0;text-decoration:underline;cursor:pointer}
-  #analytics-notice[hidden]{display:none!important}
-  #analytics-notice{position:fixed;inset:auto 12px 12px;z-index:1000;max-width:920px;margin:auto;display:flex;align-items:center;gap:20px;padding:20px;border:1px solid #70556d;border-radius:14px;background:#19131d;color:#fff;font:14px/1.55 system-ui}
-  #analytics-notice p{margin:6px 0;color:#e5d7e4;font:inherit}
-  #analytics-notice a{color:#ffafc9;text-decoration:underline}
-  #analytics-status:empty{display:none}
-  .analytics-actions{display:flex;gap:8px;flex-shrink:0}
-  .analytics-actions button{font:600 13px/1.4 system-ui;padding:10px 14px;border:1px solid #936f8d;border-radius:8px;background:transparent;color:#fff;cursor:pointer}
-  #analytics-accept{background:#ffd5e4;color:#29121d}
-  button:disabled{opacity:.5;cursor:not-allowed}
-  button:focus-visible,a:focus-visible{outline:3px solid #ff9fc4;outline-offset:3px}
-  :global([dir="rtl"]) #analytics-notice{text-align:right}
-  @media(max-width:640px){#analytics-notice{display:block;padding:16px}.analytics-actions{display:grid;grid-template-columns:1fr 1fr;margin-top:12px}}
-</style>
+<Analytics locale={Astro.props.locale} />

@@ -2,7 +2,7 @@
 locale: de
 route: /de/privacy/
 title: "Datenschutz | Lovescape"
-description: "Technische Besuchsdaten, freiwillige Google-Analytics-Messung, Widerruf, Browsersignale und externe Links auf der Informationsseite lovescape.bond."
+description: "Automatisches Google Analytics, Cookies, erkennbare Bots und Datenschutzeinstellungen des Browsers."
 status: private-draft
 ---
 
@@ -18,13 +18,13 @@ Hier gibt es kein Login, keinen Chat, keine Zahlung, Sprachaufnahme, Fotoübertr
 
 Hosting- und Sicherheitsanbieter können IP-Adresse, Browser, angefragte URL, Zeitpunkt und technische Signale zur Bereitstellung und Missbrauchsabwehr verarbeiten. Die Redaktion erhält dadurch keine privaten Chats aus anderen Produkten.
 
-## Freiwillige Messung mit Google Analytics
+## Automatische Messung mit Google Analytics
 
-Der Messcode startet erst nach Zustimmung. Du kannst ablehnen und deine Einwilligung über die Einstellungen am Seitenende widerrufen. Global Privacy Control und Do Not Track werden berücksichtigt. Die Entscheidung wird bis zu 180 Tage im lokalen Browserspeicher behalten. Messcookies haben eine konfigurierte Laufzeit von bis zu 180 Tagen und können während der Nutzung erneuert werden.
+Google Analytics 4 startet automatisch, wenn eine Seite in einem normalen Browser geöffnet wird. Erfasst werden Seitenaufrufe, Scrollen, Klicks auf externe Links, Geräteinformationen und Zugriffsquellen. Analyse-Cookies laufen nach 180 Tagen ab und können bei Nutzung erneuert werden. Google kann Daten außerhalb deines Landes verarbeiten. Google signals, personalisierte Werbung und Werbespeicherung sind deaktiviert.
 
-Bei Zustimmung können Seitenaufrufe, Scrollen, ausgehende Klicks, Geräteangaben und Besuchsherkunft erfasst werden. Google signals und personalisierte Werbung sind deaktiviert. Die für die Messung gesetzte Seiten-URL enthält weder Abfrageparameter noch Fragment. Private Prompts und Nachrichten werden nicht übermittelt. Google kann Daten außerhalb deines Landes verarbeiten; siehe die [Google-Datenschutzerklärung](https://policies.google.com/privacy) und die [Deaktivierungsmöglichkeit](https://tools.google.com/dlpage/gaoptout).
+GA4 schließt bekannte Bots automatisch aus. Auch diese Website überspringt erkennbare Crawler und Browser, die sich ausdrücklich als automatisiert melden. Nicht alle Bots, die Menschen imitieren, können erkannt werden. Wir beachten Global Privacy Control, Do Not Track und die Google-Analytics-Deaktivierung im Browser. Die konfigurierte Seitenadresse enthält keine Abfrageparameter oder Fragmente; Verweisadressen werden auf ihren Ursprung reduziert. Chats, Prompts, Dateien und Formularinhalte werden nicht gesendet. Das Löschen von Cookies entfernt keine bereits von Google verarbeiteten Daten.
 
-Bei Widerruf deaktivieren wir die Messung und entfernen Analytics-Cookies, soweit diese Seite darauf Zugriff hat. Bereits von Google verarbeitete Daten werden dadurch nicht garantiert gelöscht. Lokale Tests fangen die Anfragen ab und senden keine Testbesuche an die echte Analytics-Property.
+[Google-Datenschutzerklärung](https://policies.google.com/privacy) · [Deaktivierungsmöglichkeit](https://tools.google.com/dlpage/gaoptout).
 
 ## Externe Ziele
 

@@ -2,7 +2,7 @@
 locale: zh-hant
 route: /zh-hant/privacy/
 title: "隱私說明 | Lovescape"
-description: "lovescape.bond 的靜態頁面、選擇性 Google Analytics、瀏覽器隱私訊號、資料保存與外部推薦連結說明。"
+description: "自動 Google Analytics、Cookie、可識別機器人排除與瀏覽器隱私設定。"
 status: private-draft
 ---
 
@@ -18,13 +18,13 @@ status: private-draft
 
 託管與安全服務可能為了傳送網頁及防範濫用，處理 IP 位址、瀏覽器、要求網址、時間與安全訊號等技術資訊。這與本站取得你在 Lovescape 裡的私人聊天內容是不同的事。
 
-## 自願啟用 Google Analytics
+## Google Analytics 自動流量分析
 
-分析標籤只在你按下允許後啟用，可以拒絕，也可以透過頁尾設定撤回。本站尊重 Global Privacy Control 與 Do Not Track。選擇保存在瀏覽器本機儲存空間，最多 180 天；分析 Cookie 的設定期限也最多 180 天，但使用時可能續期。
+一般瀏覽器開啟頁面時，Google Analytics 4 會自動開始統計頁面瀏覽、捲動、外部連結點擊、裝置資訊與流量來源。分析 Cookie 設定於 180 天後到期，使用時可能更新。Google 可能在境外處理資料。我們不啟用 Google signals、廣告個人化或廣告儲存。
 
-同意後可能分析瀏覽頁面、捲動、外部連結點擊、裝置與流量來源，用於改善內容。不啟用 Google signals 或廣告個人化；程式設定給分析服務的頁面網址會移除查詢參數與片段，不傳送聊天、提示詞或聯絡內容。Google 可能在你所在國家以外處理資料，詳見[Google 隱私權政策](https://policies.google.com/privacy)及[停用分析的瀏覽器外掛](https://tools.google.com/dlpage/gaoptout)。
+GA4 會自動排除已知機器人；本站也會略過可識別爬蟲及明確標示自動化的瀏覽器，但無法保證辨識所有偽裝成人類的機器人。我們尊重 Global Privacy Control、Do Not Track 與 Google Analytics 瀏覽器停用設定。設定的頁面網址不含查詢參數與片段，來源網址只保留來源網域及協定。不傳送對話、提示詞、檔案或表單內容。清除 Cookie 不會刪除 Google 已處理的資料。
 
-撤回後會停用分析，並刪除本站有權刪除的分析 Cookie；不代表能刪除已經由 Google 處理的歷史資料。私人預覽的操作測試攔截分析請求，不會把測試流量送進正式統計。
+[Google 隱私權政策](https://policies.google.com/privacy) · [停用分析的瀏覽器外掛](https://tools.google.com/dlpage/gaoptout).
 
 ## 外部連結
 

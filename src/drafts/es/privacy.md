@@ -2,7 +2,7 @@
 locale: es
 route: /es/privacy/
 title: "Privacidad | Lovescape"
-description: "Datos de visita, Google Analytics opcional, preferencias del navegador y enlaces externos en la publicación independiente lovescape.bond."
+description: "Google Analytics automático, cookies, filtros de robots y preferencias del navegador."
 status: private-draft
 ---
 
@@ -18,13 +18,13 @@ No ofrecemos cuentas, chat, pagos, grabación de voz, subida de fotos ni almacen
 
 Al servir una página, los proveedores de alojamiento y seguridad pueden procesar datos técnicos como dirección IP, navegador, URL solicitada, fecha y señales de seguridad. Esto permite entregar contenido y prevenir abusos. No significa que el equipo editorial reciba tus conversaciones dentro de otro producto.
 
-## Google Analytics es opcional
+## Medición automática con Google Analytics
 
-El código de medición solo se inicia tras aceptar. Puedes rechazarlo y retirar el permiso desde las preferencias situadas al final de cada página. Se respetan Global Privacy Control y Do Not Track. La elección se guarda en el almacenamiento local del navegador hasta 180 días; las cookies de medición tienen una duración configurada de hasta 180 días y pueden renovarse durante el uso.
+Google Analytics 4 se inicia automáticamente al abrir una página en un navegador normal. Mide visitas, desplazamientos, clics en enlaces externos, dispositivo y procedencia del tráfico. Las cookies analíticas caducan a los 180 días y pueden renovarse al usarse. Google puede tratar datos fuera de tu país. No activamos Google signals, personalización publicitaria ni almacenamiento publicitario.
 
-Si aceptas, se pueden medir páginas vistas, desplazamiento, clics de salida, dispositivo y procedencia para mejorar el contenido. No activamos Google signals ni personalización publicitaria. El código elimina consulta y fragmento de la URL que establece para la medición y no envía prompts o mensajes privados. Google puede tratar datos fuera de tu país. Consulta su [política de privacidad](https://policies.google.com/privacy) y el [complemento de inhabilitación](https://tools.google.com/dlpage/gaoptout).
+GA4 excluye automáticamente los robots conocidos. También omitimos la medición para rastreadores identificables y navegadores que se declaran automatizados; no podemos detectar todos los robots que imitan a personas. Respetamos Global Privacy Control, Do Not Track y la inhabilitación de Google Analytics del navegador. No enviamos parámetros de búsqueda ni fragmentos en la URL configurada; reducimos las referencias al origen. No enviamos conversaciones, prompts, archivos ni contenidos de formularios. Borrar cookies no elimina datos ya tratados por Google.
 
-Al retirar el permiso, desactivamos la medición y eliminamos las cookies de Analytics que este sitio puede borrar. No podemos prometer borrar datos ya tratados por Google. La preparación local utiliza solicitudes interceptadas para probar los botones sin enviar visitas de prueba a la propiedad real.
+[política de privacidad](https://policies.google.com/privacy) · [complemento de inhabilitación](https://tools.google.com/dlpage/gaoptout).
 
 ## Enlaces externos y publicidad
 
