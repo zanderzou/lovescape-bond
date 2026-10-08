@@ -4,9 +4,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import PostCard from "../../components/PostCard.astro";
 import { site } from "../../data/site";
 const posts = (await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
-const jsonLd={"@context":"https://schema.org","@type":"CollectionPage",name:"Lovescape comparisons",url:`${site.url}/blog/`,description:"Five focused Lovescape comparisons covering features, strengths, weaknesses, cost, privacy, and best fit.",hasPart:posts.map((post)=>({"@type":"Article",headline:post.data.title,url:`${site.url}/blog/${post.id}/`,datePublished:post.data.publishDate.toISOString()}))};
+const jsonLd={"@context":"https://schema.org","@type":"CollectionPage",name:"Lovescape comparisons",url:`${site.url}/blog/`,description:"Focused Lovescape comparisons covering features, strengths, weaknesses, cost, privacy, and best fit.",hasPart:posts.map((post)=>({"@type":"Article",headline:post.data.title,url:`${site.url}/blog/${post.id}/`,datePublished:post.data.publishDate.toISOString()}))};
 ---
 <BaseLayout title="Lovescape comparisons" description="Compare Lovescape with Candy AI, OurDream AI, GirlfriendGPT, DreamGF, and Swipey AI through distinct workflow, cost, privacy, and character tests." keywords={["Lovescape comparison","Lovescape alternatives","Lovescape vs Candy AI","Lovescape vs OurDream AI"]} jsonLd={jsonLd}>
-  <section class="page-hero"><div class="ambient-orb"></div><span>COMPARISON LIBRARY</span><h1>Lovescape comparisons</h1><p>Five different product decisions, from guided companions and media cost to community characters, appearance-first creation, and feed-led discovery.</p></section>
+  <section class="page-hero"><div class="ambient-orb"></div><span>COMPARISON LIBRARY</span><h1>Lovescape comparisons</h1><p>different product decisions, from guided companions and media cost to community characters, appearance-first creation, and feed-led discovery.</p></section>
   <section class="section blog-list"><div class="post-grid">{posts.map((post,index)=><PostCard post={post} index={index} />)}</div></section>
 </BaseLayout>

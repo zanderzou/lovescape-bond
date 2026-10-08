@@ -1,0 +1,94 @@
+{
+  "domain": "lovescape.bond",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "lovescape-vs-nomi-relationship-adaptation",
+      "title": "Lovescape vs Nomi: Profile and Conversation Growth",
+      "opponent": "Nomi",
+      "readerQuestion": "a designed character profile versus adaptation through conversation",
+      "releaseAt": "2026-10-08T05:39:26.123Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "7f166db37b340015c4d58459c7a2f2a7e7d35fd6b45916b8c34270e41355520a",
+      "wordCount": 489,
+      "editorialIntent": "Evaluate a fictional companion’s stable setup and changing conversation preferences as separate dimensions.",
+      "sources": [
+        [
+          "Lovescape Character Profiles",
+          "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters"
+        ],
+        [
+          "Lovescape Creation Guide",
+          "https://help.lovescape.com/hc/en-us/articles/26017175175569-How-to-Create-an-AI-Character-on-Lovescape-Step-by-Step-Guide"
+        ],
+        [
+          "Nomi Backstory+",
+          "https://wiki.nomi.ai/What_is_Backstory%2B%3F"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "lovescape-vs-kindroid-backstory-revision",
+      "title": "Lovescape vs Kindroid: Revise One Backstory Constraint",
+      "opponent": "Kindroid",
+      "readerQuestion": "revising one backstory constraint without rewriting the whole persona",
+      "releaseAt": "2026-10-15T09:43:35.725Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "0183281f886d4e6d1206ae4028dad67a736e1485b57235832de0935099951fbb",
+      "wordCount": 488,
+      "editorialIntent": "Make a reviewable fictional backstory change without confusing definition edits with destructive reset actions.",
+      "sources": [
+        [
+          "Lovescape Character Profiles",
+          "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters"
+        ],
+        [
+          "Kindroid Personality Controls",
+          "https://kindroid.ai/v2/docs/customizing-personality/"
+        ],
+        [
+          "Kindroid Chat Features",
+          "https://kindroid.ai/v2/docs/chat-features-and-tools/"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "lovescape-vs-replika-wellbeing-boundaries",
+      "title": "Lovescape vs Replika: Boundaries for a Check-In",
+      "opponent": "Replika",
+      "readerQuestion": "creative character use versus a routine without unsupported wellness claims",
+      "releaseAt": "2026-10-22T18:21:18.508Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "e323bd81125339c47f25e609e130a33e49d1296f1c6f729a67f8a25ce493ce2c",
+      "wordCount": 491,
+      "editorialIntent": "Assess a manageable creative check-in without presenting entertainment software as clinical support.",
+      "sources": [
+        [
+          "Lovescape Creation Guide",
+          "https://help.lovescape.com/hc/en-us/articles/26017175175569-How-to-Create-an-AI-Character-on-Lovescape-Step-by-Step-Guide"
+        ],
+        [
+          "Replika Overview",
+          "https://help.replika.com/hc/en-us/articles/115001070951-What-is-Replika"
+        ],
+        [
+          "Replika Privacy Policy",
+          "https://replika.com/legal/privacy/en"
+        ]
+      ]
+    }
+  ]
+}
