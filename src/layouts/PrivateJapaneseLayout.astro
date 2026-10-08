@@ -55,8 +55,8 @@ const links = [
     <header class="ja-site-header">
       <a class="ja-brand" href="/ja/" aria-label="Lovescape 日本語ホーム"><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a>
       <nav class="ja-desktop-nav" aria-label="日本語の主なメニュー">{links.map((link) => <a href={link.href}>{link.label}</a>)}</nav>
-      <a class="ja-official" href="https://www.playbox.com/?ref=zanderzou" target="_blank" rel="sponsored nofollow noopener noreferrer">Playbox の紹介リンク ↗</a>
-      <details class="ja-mobile-nav"><summary aria-label="メニューを開く">メニュー <span>☰</span></summary><nav aria-label="モバイルの主なメニュー">{links.map((link) => <a href={link.href}>{link.label}</a>)}<a href="https://www.playbox.com/?ref=zanderzou" target="_blank" rel="sponsored nofollow noopener noreferrer">Playbox の紹介リンク ↗</a></nav></details>
+      <a class="ja-official" href="https://spicy-box.com/?utm_ref=c546b6e92223b411" target="_blank" rel="sponsored nofollow noopener noreferrer">Playbox の紹介リンク ↗</a>
+      <details class="ja-mobile-nav"><summary aria-label="メニューを開く">メニュー <span>☰</span></summary><nav aria-label="モバイルの主なメニュー">{links.map((link) => <a href={link.href}>{link.label}</a>)}<a href="https://spicy-box.com/?utm_ref=c546b6e92223b411" target="_blank" rel="sponsored nofollow noopener noreferrer">Playbox の紹介リンク ↗</a></nav></details>
     </header>
     <main id="main"><slot /></main>
     <footer class="ja-site-footer">
@@ -64,7 +64,7 @@ const links = [
         <div><a class="ja-brand" href="/ja/"><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a><p>架空の成人向けAIキャラクター、会話、画像、Chipsと代替サービスを、一次資料から調べる独立した情報サイトです。Lovescapeの公式運営ではありません。</p></div>
         <div><h2>比較する</h2><a href="/ja/blog/lovescape-vs-candy-ai/">Candy AIとの比較</a><a href="/ja/blog/lovescape-vs-ourdream-ai/">OurDream AIとの比較</a><a href="/ja/blog/lovescape-vs-girlfriendgpt/">GirlfriendGPTとの比較</a><a href="/ja/blog/lovescape-vs-dreamgf/">DreamGFとの比較</a><a href="/ja/blog/lovescape-vs-swipey-ai/">Swipey AIとの比較</a></div>
         <div><h2>サイト情報</h2><a href="/ja/about/">このサイトについて</a><a href="/ja/editorial-policy/">編集方針</a><a href="/ja/privacy/">プライバシー</a><a href="/ja/terms/">利用条件</a><a href="/ja/contact/">連絡先</a></div>
-        <div><h2>外部サイト</h2><a href={site.officialUrl} target="_blank" rel="noopener noreferrer">Lovescape公式 ↗</a><a href="https://www.playbox.com/?ref=zanderzou" target="_blank" rel="sponsored nofollow noopener noreferrer">広告・紹介リンク：Playbox ↗</a><p>製品の価格や規則は、申込前に公式画面で確認してください。</p></div>
+        <div><h2>外部サイト</h2><a href={site.officialUrl} target="_blank" rel="noopener noreferrer">Lovescape公式 ↗</a><a href="https://spicy-box.com/?utm_ref=c546b6e92223b411" target="_blank" rel="sponsored nofollow noopener noreferrer">広告・紹介リンク：Playbox ↗</a><p>製品の価格や規則は、申込前に公式画面で確認してください。</p></div>
       </div>
       <div class="ja-footer-bottom"><span>© Lovescape 独立編集サイト</span><span>18歳以上 · 私的な会話や画像は収集しません</span><details><summary>言語</summary><a href={Astro.url.pathname.replace(/^\/ja/, "") || "/"}>English</a>{process.env.LOVESCAPE_PRIVATE_I18N_PREVIEW === "local-only" && privateDraftLocales.map(slug => <a href={Astro.url.pathname.replace(/^\/ja/, `/${slug}`)}>{privateLocaleUi[slug].name}</a>)}</details></div>
     </footer>

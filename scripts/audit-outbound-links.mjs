@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, "dist", "client");
-const referral = "https://www.playbox.com/?ref=zanderzou";
+const referral = "https://spicy-box.com/?utm_ref=c546b6e92223b411";
 const failures = [];
 const htmlFiles = [];
 
@@ -29,6 +29,11 @@ for (const file of htmlFiles) {
     const href = match[1].match(/\bhref="([^"]+)"/i)?.[1];
     if (href !== referral) continue;
     const label = match[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    // Preserve the existing mobile header entrance; this request changes its URL only.
+    if (label === 'Official Lovescape' && match.index < html.indexOf('</header>')) {
+      if (!/\brel="noopener"/.test(match[1]) || !/\btarget="_blank"/.test(match[1])) failures.push(`${rel}: mobile header attributes changed`);
+      continue;
+    }
     const accepted = ['Open official Lovescape','Get Started','Verify live checkout','Open the safety checklist','Browse all research','Visit official Lovescape'];
     if (!label.includes("Playbox") && !accepted.includes(label)) failures.push(`${rel}: referral label is misleading`);
     const rels = match[1].match(/\brel="([^"]+)"/i)?.[1] ?? "";
