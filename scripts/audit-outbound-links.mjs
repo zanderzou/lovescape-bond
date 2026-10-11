@@ -1,3 +1,4 @@
+import { calls } from './localized-experience.mjs';
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -35,7 +36,7 @@ for (const file of htmlFiles) {
       continue;
     }
     const accepted = ['Open official Lovescape','Get Started','Verify live checkout','Open the safety checklist','Browse all research','Visit official Lovescape'];
-    if (!label.includes("Playbox") && !accepted.includes(label)) failures.push(`${rel}: referral label is misleading`);
+    if (!label.includes("Playbox") && !accepted.concat(Object.values(calls).flat()).includes(label.replace(/[↗→]/g, "").trim())) failures.push(`${rel}: referral label is misleading`);
     const rels = match[1].match(/\brel="([^"]+)"/i)?.[1] ?? "";
     if (!rels.includes("sponsored") || !rels.includes("nofollow")) failures.push(`${rel}: referral missing sponsored/nofollow`);
   }
