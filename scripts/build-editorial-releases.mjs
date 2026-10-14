@@ -12,6 +12,11 @@ const content = path.join(root, 'src/content/blog');
 const drafts = path.join(root, 'src/editorial-drafts');
 const exists = async f => { try { await access(f); return true; } catch { return false; } };
 const hash = b => createHash('sha256').update(b).digest('hex');
+// Git can store CRLF for reviewed Markdown while the review hash was taken
+// from the same text with LF endings. Ignore only that byte-level EOL change.
+const matchesReviewed = (bytes, reviewedSha256) =>
+  hash(bytes) === reviewedSha256 ||
+  hash(Buffer.from(bytes.toString('utf8').replace(/\r\n/g, '\n'), 'utf8')) === reviewedSha256;
 const walk = async (dir, prefix = '') => {
   const result = [];
   for (const item of await readdir(dir, { withFileTypes: true })) {
@@ -37,7 +42,7 @@ for (const item of approved) {
   assert.match(item.slug, /^[a-z0-9-]+$/);
   assert.ok(Number.isFinite(Date.parse(item.releaseAt)));
   const raw = await readFile(path.join(drafts, item.slug + '.md'));
-  assert.equal(hash(raw), item.reviewedSha256, 'Article changed after editorial review: ' + item.slug);
+  assert.ok(matchesReviewed(raw, item.reviewedSha256), 'Article changed after editorial review: ' + item.slug);
 }
 const originalPresent = new Map();
 for (const item of schedule.articles) {
@@ -54,7 +59,7 @@ async function setPhase(phase) {
     const dest = path.join(content, item.slug + '.md');
     if (item.approved && item.order <= phase) await copyFile(path.join(drafts, item.slug + '.md'), dest);
     else if (await exists(dest)) {
-      if (originalPresent.has(item.slug) && item.order !== 1) assert.equal(hash(originalPresent.get(item.slug)), item.reviewedSha256, 'Unexpected public future source; stop instead of deleting it');
+      if (originalPresent.has(item.slug) && item.order !== 1) assert.ok(matchesReviewed(originalPresent.get(item.slug), item.reviewedSha256), 'Unexpected public future source; stop instead of deleting it');
       await unlink(dest);
     }
   }
