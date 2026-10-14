@@ -132,3 +132,14 @@ body:before{background:linear-gradient(90deg,transparent 49.95%,rgba(255,255,255
 
 .lovescape-hero .hero-copy>.hero-tagline{max-width:620px;margin:0 0 12px;color:#ff765f;font-family:"Sora",sans-serif;font-size:clamp(1.4rem,2.65vw,2.2rem);font-weight:700;line-height:1.2;letter-spacing:-.035em}
 @media(max-width:640px){.lovescape-hero .hero-copy>.hero-tagline{font-size:clamp(1.35rem,6vw,1.7rem)}}
+
+/* Keep the primary action in view before the longer mobile introduction. */
+@media(max-width:640px){
+  .lovescape-hero .hero-copy{display:flex;flex-direction:column}
+  .lovescape-hero .hero-copy>.kicker{order:0}
+  .lovescape-hero .hero-copy>h1{order:1}
+  .lovescape-hero .hero-copy>.hero-tagline{order:2}
+  .lovescape-hero .hero-copy>.hero-actions{order:3;margin-top:20px}
+  .lovescape-hero .hero-copy>p:not(.hero-tagline){order:4;margin-top:20px}
+  .lovescape-hero .hero-copy>.hero-trust{order:5}
+}

@@ -43,3 +43,13 @@
 .ja-link-grid{margin:28px 0}
 .ja-site-footer{margin-top:30px}
 @media(max-width:650px){.ja-home .ja-content:before,[dir="rtl"] .ja-preview .ja-home .ja-content:before{float:none;width:100%;height:330px;margin:0 0 20px}.ja-home .ja-content>h1:first-child{padding-top:0;font-size:2.6rem}.ja-home .ja-content>h2:first-of-type{margin-top:26px}.ja-content h2{margin-top:26px;font-size:1.4rem}}
+
+/* Native-language lead copy remains intact, with the action just after its title. */
+@media(max-width:650px){
+  .ja-home .ja-content{display:flex;flex-direction:column}
+  .ja-home .ja-content>*{order:4}
+  .ja-home .ja-content:before{order:0;flex:none}
+  .ja-home .ja-content>h1:first-child{order:1}
+  .ja-home .ja-content>.localized-primary-action{order:2}
+  .ja-home .ja-content>p:first-of-type{order:3}
+}
