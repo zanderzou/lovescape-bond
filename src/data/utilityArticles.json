@@ -1,0 +1,12 @@
+{
+  "domain": "lovescape.bond",
+  "label": "lovescape.bond",
+  "origin": "https://lovescape.bond",
+  "slugs": [
+    "lovescape-cancel-premium-vs-ultra-billing",
+    "lovescape-chips-balance-token-history"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}
