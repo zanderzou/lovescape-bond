@@ -33,7 +33,7 @@ const localePath = Astro.url.pathname.replace(/^\/[^/]+/, "");
     <div><a class="ja-brand" href={`/${locale}/`}>Lovescape</a><p>{ui.independent}</p></div>
     <div><h2>{ui.blog}</h2><a href={`/${locale}/blog/`}>{ui.more}</a></div>
     <div><h2>{ui.about}</h2>{info.map(([key, label]) => <a href={`/${locale}/${key}/`}>{label}</a>)}</div>
-    <div><a href={site.officialUrl} rel="noopener noreferrer" target="_blank">{ui.official} ↗</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a><p>{ui.sponsor}</p></div>
+    <div><a href="https://www.gptgirlfriend.online/?ref=oty3mmu" rel="noopener noreferrer" target="_blank">{ui.official} ↗</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a><p>{ui.sponsor}</p></div>
   </div><div class="ja-footer-bottom"><span>© Lovescape</span><span>{ui.adults}</span><details><summary>{ui.language}</summary><a href={localePath || "/"}>English</a><a href={`/ja${localePath}`}>日本語</a>{privateDraftLocales.map(slug => <a href={`/${slug}${localePath}`}>{privateLocaleUi[slug].name}</a>)}</details></div></footer>
   <PrivateLocaleAnalytics locale={locale}/>
 </body></html>

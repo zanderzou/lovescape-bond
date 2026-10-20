@@ -30,6 +30,12 @@ for (const file of htmlFiles) {
     const href = match[1].match(/\bhref="([^"]+)"/i)?.[1];
     if (href !== referral) continue;
     const label = match[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    // Preserve the reviewed plain footer entrance and its exact original attributes.
+    const beforeLink=html.slice(0,match.index);
+    if(beforeLink.lastIndexOf('<footer')>beforeLink.lastIndexOf('</footer')&&!/\bsponsored\b/.test(match[1])){
+      if(!/\brel="noopener(?: noreferrer)?"/.test(match[1])||!/\btarget="_blank"/.test(match[1])||!label.includes('Lovescape'))failures.push(`${rel}: reviewed footer entry attributes or label changed`);
+      continue;
+    }
     // Preserve the existing mobile header entrance; this request changes its URL only.
     if (label === 'Official Lovescape' && match.index < html.indexOf('</header>')) {
       if (!/\brel="noopener"/.test(match[1]) || !/\btarget="_blank"/.test(match[1])) failures.push(`${rel}: mobile header attributes changed`);
@@ -58,7 +64,7 @@ for (const file of htmlFiles) {
 const privacy = readFileSync(path.join(out, "privacy", "index.html"), "utf8");
 if (!privacy.includes('href="https://policies.google.com/privacy"')) failures.push("privacy: Google policy link was rewritten");
 const home = readFileSync(path.join(out, "index.html"), "utf8");
-if (!home.includes('href="https://lovescape.com/"')) failures.push("home: official Lovescape link was rewritten");
+if (!home.includes('<a href="'+referral+'" rel="noopener" target="_blank">Official Lovescape ')) failures.push("home: reviewed footer navigation destination missing");
 if (!home.includes(`href="${referral}"`)) failures.push("home: labeled referral was lost");
 
 if (failures.length) {
