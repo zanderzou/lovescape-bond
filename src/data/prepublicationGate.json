@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "domain": "lovescape.bond",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "lovescape-vs-nomi-relationship-adaptation",
+      "releaseAt": "2026-10-08T05:39:26.123Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.890Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-vs-nomi-relationship-adaptation/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "e77455ebd5a0c8b23e93e0204c718ea23493116b",
+      "deploymentId": "0c97cc1d-bff6-4b77-a7ee-2d300750f763",
+      "responseSha256": "56092c9e70a549bcf3aa067985a7b25570ebdd94dc51e68c12247f326f7eb7a3"
+    },
+    {
+      "order": 2,
+      "slug": "lovescape-vs-kindroid-backstory-revision",
+      "releaseAt": "2026-10-15T09:43:35.725Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.891Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-vs-kindroid-backstory-revision/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "e77455ebd5a0c8b23e93e0204c718ea23493116b",
+      "deploymentId": "0c97cc1d-bff6-4b77-a7ee-2d300750f763",
+      "responseSha256": "fa49c7bc559d13724fdcef76cbb1f1aca432bb0107abc93a45c34dbcf8f158c8"
+    },
+    {
+      "order": 3,
+      "slug": "lovescape-vs-replika-wellbeing-boundaries",
+      "releaseAt": "2026-10-22T18:21:18.508Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.891Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-vs-replika-wellbeing-boundaries/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "e77455ebd5a0c8b23e93e0204c718ea23493116b",
+      "deploymentId": "0c97cc1d-bff6-4b77-a7ee-2d300750f763",
+      "responseSha256": "cf6e61d28d1a1f5fef8a154c1e1c8527a87797426ed22294e096a4e436e04792"
+    }
+  ],
+  "certificates": {}
+}
