@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, "dist", "client");
-const referral = "https://www.gptgirlfriend.online/?ref=oty3mmu";
+const referral = "https://spicy-box.com/?utm_ref=6cc1a8f534d264bd";
 const failures = [];
 const htmlFiles = [];
 
