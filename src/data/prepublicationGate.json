@@ -45,5 +45,59 @@
       "responseSha256": "cf6e61d28d1a1f5fef8a154c1e1c8527a87797426ed22294e096a4e436e04792"
     }
   ],
-  "certificates": {}
+  "certificates": {
+    "lovescape-cancel-premium-vs-ultra-billing": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "lovescape.bond",
+      "slug": "lovescape-cancel-premium-vs-ultra-billing",
+      "order": 4,
+      "releaseAt": "2026-10-30T02:24:12.508Z",
+      "activationAt": "2026-10-30T02:24:12.508Z",
+      "reviewedAt": "2026-10-27T09:34:19.592Z",
+      "factsCheckedAt": "2026-10-27T09:34:19.592Z",
+      "reviewedBy": "Codex independent article and primary-source review under October27 project override",
+      "contentSha256": "5d8c7f904dfd14b56d2583d766f6058dfe45fae34ca4382e630ff376d3ad5f74",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Premium current help states auto-renewal/cancel/period-end access, while Ultra post advertises one-time payment. Historical receipts remain controlling evidence."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+          "checkedAt": "2026-10-27T09:31:29.915Z",
+          "status": "content-retrieved",
+          "claim": "Premium current help states auto-renewal/cancel/period-end access, while Ultra post advertises one-time payment. Historical receipts remain controlling evidence.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-082146/source-c1d2cd1ca4c6bf49.json",
+              "sha256": "c383c4f64acb74f55b588e67d1e1f06f9a4a389bf5423d8b00a30414b072e844"
+            }
+          ]
+        },
+        {
+          "url": "https://lovescape.com/blog/lovescape-ultra-pay-once-hers-forever/",
+          "checkedAt": "2026-10-27T09:22:11.703Z",
+          "status": 200,
+          "claim": "Premium current help states auto-renewal/cancel/period-end access, while Ultra post advertises one-time payment. Historical receipts remain controlling evidence.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-082146/source-301066e95015635d.json",
+              "sha256": "973eb6703498e3e0d574f7fc1a3c33cb2bb091b4b979f4c2ee30f899c113fec1"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "b975f16de9edf7062718be52de9b4111940b668d766154277f0e8ec0916de393"
+    }
+  }
 }

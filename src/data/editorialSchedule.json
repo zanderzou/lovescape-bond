@@ -99,7 +99,7 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
+      "sourcesCheckedAt": "2026-10-27",
       "reviewedSha256": "5d8c7f904dfd14b56d2583d766f6058dfe45fae34ca4382e630ff376d3ad5f74",
       "wordCount": 419,
       "editorialIntent": "A receipt-led distinction between a recurring obligation, a one-time purchase and a repayment request without recommending a purchase.",
@@ -136,7 +136,9 @@
           "Lovescape: Premium billing and cancellation help",
           "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-06T12:57:51.508Z",
+      "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
     }
   ],
   "baselinePhase": 1,

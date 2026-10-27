@@ -1,0 +1,16 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-cancel-premium-vs-ultra-billing",
+  "reviewedAt": "2026-10-27T09:34:19.592Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "contentSha256": "5d8c7f904dfd14b56d2583d766f6058dfe45fae34ca4382e630ff376d3ad5f74",
+  "decision": "Premium current help states auto-renewal/cancel/period-end access, while Ultra post advertises one-time payment. Historical receipts remain controlling evidence.",
+  "materialChanges": false,
+  "limitations": "Sourced informational guide with clearly illustrative examples; no account, generation, billing, deletion or performance operation claimed.",
+  "sources": [
+    "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+    "https://lovescape.com/blog/lovescape-ultra-pay-once-hers-forever/"
+  ],
+  "activationAt": "2026-10-30T02:24:12.508Z",
+  "originalPlan": "2026-10-30T02:24:12.508Z"
+}
