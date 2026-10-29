@@ -44,7 +44,7 @@ for (const path of paths) {
   assert.match(html, /解析を許可/, `${path}: Japanese analytics consent`);
   assert.match(html, /許可しない/, `${path}: Japanese analytics refusal`);
   assert.match(html, /href="\/ja\/privacy\/"/, `${path}: Japanese privacy link`);
-  assert.match(html, /rel="sponsored nofollow noopener noreferrer"/, `${path}: labeled referral`);
+  assert.match(html, /rel="nofollow noopener noreferrer"/, `${path}: labeled referral`);
 
   for (const [, href] of html.matchAll(/href="(\/ja\/[^"#?]*)"/g)) {
     await access(fileFor(preview, href));

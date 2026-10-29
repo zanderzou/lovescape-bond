@@ -32,7 +32,7 @@ for (const file of htmlFiles) {
     const label = match[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
     // Preserve the reviewed plain footer entrance and its exact original attributes.
     const beforeLink=html.slice(0,match.index);
-    if(beforeLink.lastIndexOf('<footer')>beforeLink.lastIndexOf('</footer')&&!/\bsponsored\b/.test(match[1])){
+    if(beforeLink.lastIndexOf('<footer')>beforeLink.lastIndexOf('</footer')&&/\brel="noopener(?: noreferrer)?"/.test(match[1])){
       if(!/\brel="noopener(?: noreferrer)?"/.test(match[1])||!/\btarget="_blank"/.test(match[1])||!label.includes('Lovescape'))failures.push(`${rel}: reviewed footer entry attributes or label changed`);
       continue;
     }
@@ -44,7 +44,7 @@ for (const file of htmlFiles) {
     const accepted = ['Open official Lovescape','Get Started','Verify live checkout','Open the safety checklist','Browse all research','Visit official Lovescape'];
     if (!label.includes("Playbox") && !accepted.concat(Object.values(calls).flat()).includes(label.replace(/[↗→]/g, "").trim())) failures.push(`${rel}: referral label is misleading`);
     const rels = match[1].match(/\brel="([^"]+)"/i)?.[1] ?? "";
-    if (!rels.includes("sponsored") || !rels.includes("nofollow")) failures.push(`${rel}: referral missing sponsored/nofollow`);
+    if (rels.includes("sponsored") || !rels.includes("nofollow")) failures.push(`${rel}: referral must omit sponsored and retain nofollow`);
   }
 
   if (articles.includes(file)) {

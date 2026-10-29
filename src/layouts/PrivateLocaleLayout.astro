@@ -25,15 +25,15 @@ const localePath = Astro.url.pathname.replace(/^\/[^/]+/, "");
   <a class="skip-link" href="#main">{ui.skip}</a>
   <header class="ja-site-header"><a class="ja-brand" href={`/${locale}/`}><span class="ja-brand-mark">LS</span><span>Love<b>scape</b></span></a>
     <nav class="ja-desktop-nav" aria-label={ui.navigation}><a href={`/${locale}/`}>{ui.home}</a><a href={`/${locale}/blog/`}>{ui.blog}</a><a href={`/${locale}/about/`}>{ui.about}</a></nav>
-    <a class="ja-official" href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a>
-    <details class="ja-mobile-nav"><summary>{ui.menu} ☰</summary><nav aria-label={ui.navigation}><a href={`/${locale}/`}>{ui.home}</a><a href={`/${locale}/blog/`}>{ui.blog}</a><a href={`/${locale}/privacy/`}>{ui.privacy}</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a></nav></details>
+    <a class="ja-official" href={promotion} rel="nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a>
+    <details class="ja-mobile-nav"><summary>{ui.menu} ☰</summary><nav aria-label={ui.navigation}><a href={`/${locale}/`}>{ui.home}</a><a href={`/${locale}/blog/`}>{ui.blog}</a><a href={`/${locale}/privacy/`}>{ui.privacy}</a><a href={promotion} rel="nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a></nav></details>
   </header>
   <main id="main"><slot/></main>
   <footer class="ja-site-footer"><div class="ja-footer-grid">
     <div><a class="ja-brand" href={`/${locale}/`}>Lovescape</a><p>{ui.independent}</p></div>
     <div><h2>{ui.blog}</h2><a href={`/${locale}/blog/`}>{ui.more}</a></div>
     <div><h2>{ui.about}</h2>{info.map(([key, label]) => <a href={`/${locale}/${key}/`}>{label}</a>)}</div>
-    <div><a href="https://spicy-box.com/?utm_ref=6cc1a8f534d264bd" rel="noopener noreferrer" target="_blank">{ui.official} ↗</a><a href={promotion} rel="sponsored nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a><p>{ui.sponsor}</p></div>
+    <div><a href="https://spicy-box.com/?utm_ref=6cc1a8f534d264bd" rel="noopener noreferrer" target="_blank">{ui.official} ↗</a><a href={promotion} rel="nofollow noopener noreferrer" target="_blank">{ui.promotion} ↗</a><p>{ui.sponsor}</p></div>
   </div><div class="ja-footer-bottom"><span>© Lovescape</span><span>{ui.adults}</span><details><summary>{ui.language}</summary><a href={localePath || "/"}>English</a><a href={`/ja${localePath}`}>日本語</a>{privateDraftLocales.map(slug => <a href={`/${slug}${localePath}`}>{privateLocaleUi[slug].name}</a>)}</details></div></footer>
   <PrivateLocaleAnalytics locale={locale}/>
 </body></html>
