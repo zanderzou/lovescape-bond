@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-03T16:53:55.455Z",
+  "reviewer": "weekly_rochat independent source and basic editorial review",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "humanOverride": "Useful truthful sourced informational guides do not require forced product tests, accounts, screenshots or rigid24h certificates."
+  },
+  "domain": "lovescape.bond",
+  "file": "src/editorial-drafts/lovescape-chips-balance-token-history.md",
+  "slug": "lovescape-chips-balance-token-history",
+  "title": "Lovescape Chips Balance: Reconcile Purchases, Promo Credits and Use",
+  "sourceCommit": "ac75a2b7428946ee1b33dd090becaae7364af704",
+  "productionAtVerifiedInventory": {
+    "id": "4c469bee-8823-46af-bb20-804436846a08",
+    "url": "https://4c469bee.lovescape-bond.pages.dev",
+    "commit": "ac75a2b7428946ee1b33dd090becaae7364af704",
+    "sourceShaRaw": "ac75a2b7428946ee1b33dd090becaae7364af704",
+    "createdAt": "2026-10-29T13:22:28.652355Z"
+  },
+  "sourceIdentity": {
+    "path": "source-reviews/lovescape.bond/production-identity.json",
+    "sha256": "b044408837bbd0ccd25006e9e825284265ddb6ec92e4e8d34ec7ede17e2d62a7",
+    "checkedAt": "2026-11-03T16:51:28.729Z",
+    "method": "Independent fresh git ls-remote, exact main Git-object draft/instructions read and canonical production provider read; not stale working HEAD."
+  },
+  "originalContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+  "rawContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+  "finalRecommendedContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+  "finalCopy": "source-reviews/lovescape.bond/lovescape-chips-balance-token-history-recommended-final.md",
+  "plannedReleaseAt": "2026-11-06T12:57:51.508Z",
+  "effectiveNotBefore": "2026-11-06T12:57:51.508Z",
+  "contentModified": false,
+  "requiredContentChanges": [],
+  "basicQualityPassed": true,
+  "recommendation": "Suitable for parent basic editorial approval, preserving the original notBefore and weekly interval. No account login or purchase is needed for this source-supported informational guide. This independent report does not approve, issue a certificate, change a repository/gate, deploy or claim the future URL is public.",
+  "readerIntent": "Reconcile an unexpected Chips balance over a bounded interval without mixing purchased credits, promotional credits, usage deductions and subscription-renewal records.",
+  "checks": {
+    "clearReaderQuestion": true,
+    "concreteUsefulGuidance": true,
+    "readableEnglish": true,
+    "keyClaimsSupported": true,
+    "honestLimits": true,
+    "noInventedExperience": true,
+    "fictionalArithmeticCorrect": true,
+    "noUnverifiedFeaturePrices": true,
+    "noPrivateBalanceOrRefundEligibilityGuarantee": true,
+    "noUnrelatedHighestTierOrSecurityMarketingImported": true,
+    "noAccountTestRequired": true,
+    "noNewPageOrTranslation": true,
+    "originalPlannedDatesPreserved": true,
+    "noDateOnlyRefresh": true,
+    "currentFuturePrivate": true
+  },
+  "claimReview": [
+    {
+      "articleClaim": "Purchased and promotional credits are distinct; Token History can show purchases, use and promotional rewards.",
+      "source": "Official Chips article.body, article30828415556881",
+      "assessment": "Supported by the current original help text opened/read and the actual200 public article JSON. No complete-transaction or private-account reconciliation result is claimed."
+    },
+    {
+      "articleClaim": "The guide says Chips do not expire; purchase eligibility and account/offer conditions should be checked separately.",
+      "source": "Official Chips article.body important rules/FAQ",
+      "assessment": "Supported as an attributed provider statement. The draft does not infer an actual expiry, guarantee private account access or certify refund eligibility."
+    },
+    {
+      "articleClaim": "Subscription renewal and a later Chips purchase require distinct records.",
+      "source": "Official Chips guide together with Premium article.body subscription billing sections",
+      "assessment": "The guide describes additional per-use currency beyond a subscription; Premium describes automatic renewal and account cancellation. Keeping these records separate is bounded original reader guidance, without quoting an unverified price or endorsing broad marketing claims."
+    },
+    {
+      "articleClaim": "Invented ledger120+200+30−45 ends305; identify the first unmatched entry and ask official support privately rather than buying again.",
+      "source": "Explicit original fictional accounting example and practical reasoning",
+      "assessment": "Arithmetic correct; never presented as a real account session, current action tariff or a performed payment/refund test."
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://help.lovescape.com/api/v2/help_center/en-us/articles/30828415556881.json",
+      "articleUrl": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+      "status": 200,
+      "checkedAt": "2026-11-03T16:52:12.614Z",
+      "bodySha256": "cf6d1201268b121a567139835667e220e6e8292fddabc12c7f0481331e4c6147",
+      "evidence": "source-reviews/lovescape.bond/c07c44fecef7e382254c-retrieval.json",
+      "evidenceSha256": "88005e3f2f5c6b083c768309218730e3c8a90a5abd194de739edd2df3874d798",
+      "bodyEvidence": "source-reviews/lovescape.bond/c07c44fecef7e382254c-response.json",
+      "articleId": 30828415556881,
+      "articleTitle": "Lovescape Chips: What They Are, How They Work and How to Use Them",
+      "articleUpdatedAt": "2026-11-03T14:24:40Z",
+      "retrieval": "Actual200 official public Zendesk article JSON; article.body was fully read and html_url binds the cited original help article. Original article HTML was separately searched/opened with web reader; direct bot GET403 is retained separately.",
+      "originalArticleDirectHttpStatus": 403,
+      "actualPrimaryTextRead": true
+    },
+    {
+      "url": "https://help.lovescape.com/api/v2/help_center/en-us/articles/31060479234705.json",
+      "articleUrl": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+      "status": 200,
+      "checkedAt": "2026-11-03T16:52:12.593Z",
+      "bodySha256": "8c1c8cab7d072869903d930cc57ac927fc3d7ebbea1c80e0bc7332502ee00621",
+      "evidence": "source-reviews/lovescape.bond/72fa376086cb6152c76d-retrieval.json",
+      "evidenceSha256": "8d95e7c99a38a4fa8132e60dfb15209695d090073c232e14979e93a1f8d2e6f5",
+      "bodyEvidence": "source-reviews/lovescape.bond/72fa376086cb6152c76d-response.json",
+      "articleId": 31060479234705,
+      "articleTitle": "Lovescape Premium Membership",
+      "articleUpdatedAt": "2026-11-03T13:46:47Z",
+      "retrieval": "Actual200 official public Zendesk article JSON; article.body was fully read and html_url binds the cited original help article. Original article HTML was separately searched/opened with web reader; direct bot GET403 is retained separately.",
+      "originalArticleDirectHttpStatus": 403,
+      "actualPrimaryTextRead": true
+    }
+  ],
+  "currentSourceDrift": {
+    "observation": "The current original help text and official public JSON continue to support the relevant claims. The API metadata reports November3 modification times while the visible article header says June8; no inference about a material policy change or article update date is made.",
+    "readerImpact": "The draft avoids current package prices, highest-tier claims and broad security guarantees. No substantive correction or date-only article update is needed."
+  },
+  "retrievalBoundary": {
+    "originalArticlesActuallySearchedAndOpened": true,
+    "originalArticleReaderTextFullyRead": true,
+    "directOriginalArticleHttp": [
+      {
+        "path": "source-reviews/lovescape.bond/ccd7dbeac1c7a04f0c05.json",
+        "status": 403
+      },
+      {
+        "path": "source-reviews/lovescape.bond/c1d2cd1ca4c6bf495b42.json",
+        "status": 403
+      }
+    ],
+    "successfulPrimaryBytes": "Official public Zendesk API200 for each exact article; article IDs/html_url/draft:false/en-us and full body were checked.",
+    "noLoginPaymentPermissionNetworkOrWebsiteSettingChange": true
+  },
+  "limits": [
+    "No account, transaction, balance, purchase, cancellation, refund, image generation or product-operation test was performed. HTTP and documentation checks are source evidence only.",
+    "Original visible publication/update dates remain unchanged because this review found no necessary content revision.",
+    "Direct original help-page bot GET403 is preserved as a transport limit, not falsely relabeled200. Actual official article API responses and web-reader originals support the claims.",
+    "Current future URL was independently404/noindex/no-store at16:51Z; actual build/layout/final deployment and public readback remain parent workflow responsibilities."
+  ],
+  "approvalCertificateOrRepositoryChangesPerformed": false,
+  "parentReviewedAt": "2026-11-03T16:58:12.722Z",
+  "parentReview": "Final copy and actual current primary-source evidence reviewed independently. Informational guidance under the explicit October27 basic standard; no invented account/product/payment test.",
+  "finalContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+  "currentPublicPrefixBeforeBuild": {
+    "source": "ac75a2b7428946ee1b33dd090becaae7364af704",
+    "production": {
+      "id": "4c469bee-8823-46af-bb20-804436846a08",
+      "url": "https://4c469bee.lovescape-bond.pages.dev",
+      "commit": "ac75a2b7428946ee1b33dd090becaae7364af704",
+      "sourceShaRaw": "ac75a2b7428946ee1b33dd090becaae7364af704",
+      "createdAt": "2026-10-29T13:22:28.652355Z"
+    },
+    "phase": 4,
+    "proof": "Separate real baseline-readback.json plus4actual200 saved HTML; existinggrandfather1..3 andbasic4certificate retained."
+  }
+}

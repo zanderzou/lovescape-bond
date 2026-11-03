@@ -1,0 +1,22 @@
+{
+  "url": "https://help.lovescape.com/api/v2/help_center/en-us/articles/30828415556881.json",
+  "finalUrl": "https://help.lovescape.com/api/v2/help_center/en-us/articles/30828415556881.json",
+  "status": 200,
+  "checkedAt": "2026-11-03T16:52:12.614Z",
+  "robots": null,
+  "cache": "max-age=0, private, must-revalidate",
+  "contentType": "application/json; charset=utf-8",
+  "lastModified": null,
+  "httpDate": "Tue, 03 Nov 2026 16:52:12 GMT",
+  "retryAfter": null,
+  "cfRay": "a54ce35a7f682968-LHR",
+  "sha256": "cf6d1201268b121a567139835667e220e6e8292fddabc12c7f0481331e4c6147",
+  "sourceContentRetrieved": true,
+  "article": {
+    "id": 30828415556881,
+    "url": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+    "title": "Lovescape Chips: What They Are, How They Work and How to Use Them",
+    "updatedAt": "2026-11-03T14:24:40Z",
+    "bodyLength": 8279
+  }
+}

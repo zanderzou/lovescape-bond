@@ -98,6 +98,67 @@
         }
       ],
       "certificateDigest": "b975f16de9edf7062718be52de9b4111940b668d766154277f0e8ec0916de393"
+    },
+    "lovescape-chips-balance-token-history": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "lovescape.bond",
+      "slug": "lovescape-chips-balance-token-history",
+      "order": 5,
+      "releaseAt": "2026-11-06T12:57:51.508Z",
+      "activationAt": "2026-11-06T12:57:51.508Z",
+      "reviewedAt": "2026-11-03T16:58:12.722Z",
+      "factsCheckedAt": "2026-11-03T16:52:12.614Z",
+      "reviewedBy": "Codex primary-source and independent final editorial review under October27human override",
+      "contentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Reconcile an unexpected Chips balance over a bounded interval without mixing purchased credits, promotional credits, usage deductions and subscription-renewal records."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://help.lovescape.com/api/v2/help_center/en-us/articles/30828415556881.json",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-03T16:52:12.614Z",
+          "claim": "Reconcile an unexpected Chips balance over a bounded interval without mixing purchased credits, promotional credits, usage deductions and subscription-renewal records.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-164804/c07c44fecef7e382254c-retrieval.json",
+              "sha256": "88005e3f2f5c6b083c768309218730e3c8a90a5abd194de739edd2df3874d798"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-164804/c07c44fecef7e382254c-response.json",
+              "sha256": "cf6d1201268b121a567139835667e220e6e8292fddabc12c7f0481331e4c6147"
+            }
+          ]
+        },
+        {
+          "url": "https://help.lovescape.com/api/v2/help_center/en-us/articles/31060479234705.json",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-03T16:52:12.593Z",
+          "claim": "Reconcile an unexpected Chips balance over a bounded interval without mixing purchased credits, promotional credits, usage deductions and subscription-renewal records.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-164804/72fa376086cb6152c76d-retrieval.json",
+              "sha256": "8d95e7c99a38a4fa8132e60dfb15209695d090073c232e14979e93a1f8d2e6f5"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-164804/72fa376086cb6152c76d-response.json",
+              "sha256": "8c1c8cab7d072869903d930cc57ac927fc3d7ebbea1c80e0bc7332502ee00621"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "7e1033684c50c16ac94c4e7d88c923940d85182fa12cce3f193e752363410572"
     }
   }
 }
