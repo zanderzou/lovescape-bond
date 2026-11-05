@@ -54,7 +54,7 @@ for (const file of htmlFiles) {
       continue;
     }
     const sources = [...sourceSection.matchAll(/<a\b[^>]*href="([^"]+)"/gi)].map((item) => item[1]);
-    if (sources.length < 3) failures.push(`${rel}: too few linked primary sources`);
+    if (sources.length !== 0) failures.push(`${rel}: official sources must be plain text`);
     for (const href of sources) {
       if (!href.startsWith("https://") || href === referral) failures.push(`${rel}: source points to ${href}`);
     }
@@ -62,7 +62,7 @@ for (const file of htmlFiles) {
 }
 
 const privacy = readFileSync(path.join(out, "privacy", "index.html"), "utf8");
-if (!privacy.includes('href="https://policies.google.com/privacy"')) failures.push("privacy: Google policy link was rewritten");
+if (privacy.includes('href="https://policies.google.com/privacy"')) failures.push("privacy: Google policy source link remains");
 const home = readFileSync(path.join(out, "index.html"), "utf8");
 if (!home.includes('<a href="'+referral+'" rel="noopener" target="_blank">Official Lovescape ')) failures.push("home: reviewed footer navigation destination missing");
 if (!home.includes(`href="${referral}"`)) failures.push("home: labeled referral was lost");
