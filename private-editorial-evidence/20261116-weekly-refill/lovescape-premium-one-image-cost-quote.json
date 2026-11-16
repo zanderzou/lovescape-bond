@@ -1,0 +1,38 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-premium-one-image-cost-quote",
+  "order": 7,
+  "reviewedAt": "2026-11-16T11:21:46.514Z",
+  "factsCheckedAt": "2026-11-16T11:21:25Z",
+  "contentSha256": "dded082857f84a8fd3624b8be1ffc9a3f2665a521ddfd665e6957625a2fff602",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-24T09:00:00.000Z",
+  "readerQuestion": "Does Lovescape Premium cover the particular image I intend to generate?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Premium membership help",
+      "url": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+      "note": "Describes plan inclusions and billing. Reader checks the charge shown for specific actions rather than assuming each action is included."
+    },
+    {
+      "name": "Lovescape Chips help",
+      "url": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+      "note": "Documents image quotes and chip sources, including the distinct subscription and top-up pools."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-premium-one-image-cost-quote.png",
+    "sha256": "c28eccd725d4b28a717716d6116b8957022a7f1546974e28b204e2b1ab05b8af",
+    "type": "Original editorial diagram",
+    "alt": "Confirm the signed-in plan. Read the image's displayed quote. Compare with the available pool."
+  },
+  "editorialReview": {
+    "readerAction": "Use the generation screen and plan details to see what a single image would consume.",
+    "wordCount": 155,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

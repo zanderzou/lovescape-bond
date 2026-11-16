@@ -1,0 +1,38 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-reroll-last-reply-with-plot-check",
+  "order": 6,
+  "reviewedAt": "2026-11-16T11:21:46.514Z",
+  "factsCheckedAt": "2026-11-16T11:21:25Z",
+  "contentSha256": "4f3b9acd784fe9297b14fc8a58bc54ac06c3a26cba8fba0291cc36f801c4075c",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-17T09:00:00.000Z",
+  "readerQuestion": "When should I regenerate the latest Lovescape character reply?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Take Two release notes",
+      "url": "https://lovescape.com/blog/feature-friday-take-two/",
+      "note": "Documents regenerating the last reply and video output settings."
+    },
+    {
+      "name": "Lovescape generation and chat limitations",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained",
+      "note": "Explains variability, contextual recall, and separate visibility rules for media."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-reroll-last-reply-with-plot-check.png",
+    "sha256": "d4bde8f53fdfeb3807266b036b7de3a57e5ffcb55f2d3579e03defee9c1bd663",
+    "type": "Original editorial diagram",
+    "alt": "Identify the incorrect detail. Keep the agreed scene facts. Choose the version to continue."
+  },
+  "editorialReview": {
+    "readerAction": "Use a specific continuity issue to choose between another version and a correction in the next turn.",
+    "wordCount": 155,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

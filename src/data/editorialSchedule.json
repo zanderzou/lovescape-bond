@@ -139,6 +139,81 @@
       ],
       "notBefore": "2026-11-06T12:57:51.508Z",
       "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
+    },
+    {
+      "order": 6,
+      "slug": "lovescape-reroll-last-reply-with-plot-check",
+      "title": "Decide When to Reroll a Lovescape Reply",
+      "readerQuestion": "When should I regenerate the latest Lovescape character reply?",
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "notBefore": "2026-11-17T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "4f3b9acd784fe9297b14fc8a58bc54ac06c3a26cba8fba0291cc36f801c4075c",
+      "wordCount": 155,
+      "editorialIntent": "Use a specific continuity issue to choose between another version and a correction in the next turn.",
+      "sources": [
+        [
+          "Lovescape Take Two release notes",
+          "https://lovescape.com/blog/feature-friday-take-two/"
+        ],
+        [
+          "Lovescape generation and chat limitations",
+          "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "lovescape-premium-one-image-cost-quote",
+      "title": "Check the Chip Quote for a Lovescape Image on Premium",
+      "readerQuestion": "Does Lovescape Premium cover the particular image I intend to generate?",
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "notBefore": "2026-11-24T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "dded082857f84a8fd3624b8be1ffc9a3f2665a521ddfd665e6957625a2fff602",
+      "wordCount": 155,
+      "editorialIntent": "Use the generation screen and plan details to see what a single image would consume.",
+      "sources": [
+        [
+          "Lovescape Premium membership help",
+          "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
+        ],
+        [
+          "Lovescape Chips help",
+          "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "lovescape-chip-expiration-next-session-plan",
+      "title": "Plan a Lovescape Image Session Across Renewal",
+      "readerQuestion": "How should I plan Lovescape image work near a chip renewal?",
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "notBefore": "2026-12-01T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "729a5e8c81011b220a37869852fcaa1c0d67e01d81e2291dcce8cf1a68d6049e",
+      "wordCount": 153,
+      "editorialIntent": "Separate recurring chips and top-ups when budgeting a fictional scene that spans two billing dates.",
+      "sources": [
+        [
+          "Lovescape Chips help",
+          "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them"
+        ],
+        [
+          "Lovescape Premium membership help",
+          "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

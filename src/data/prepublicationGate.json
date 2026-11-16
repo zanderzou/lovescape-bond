@@ -159,6 +159,168 @@
         }
       ],
       "certificateDigest": "7e1033684c50c16ac94c4e7d88c923940d85182fa12cce3f193e752363410572"
+    },
+    "lovescape-reroll-last-reply-with-plot-check": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-reroll-last-reply-with-plot-check",
+      "order": 6,
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "activationAt": "2026-11-17T09:00:00.000Z",
+      "contentSha256": "4f3b9acd784fe9297b14fc8a58bc54ac06c3a26cba8fba0291cc36f801c4075c",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:21:46.514Z",
+      "factsCheckedAt": "2026-11-16T11:21:25Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Take Two release notes",
+          "url": "https://lovescape.com/blog/feature-friday-take-two/",
+          "note": "Documents regenerating the last reply and video output settings.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-reroll-last-reply-with-plot-check.json",
+              "sha256": "613add6ce79e0615721724ca5cd886169e8f541235eb780eeb93b8d7ecdca5d6"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape generation and chat limitations",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained",
+          "note": "Explains variability, contextual recall, and separate visibility rules for media.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-reroll-last-reply-with-plot-check.json",
+              "sha256": "613add6ce79e0615721724ca5cd886169e8f541235eb780eeb93b8d7ecdca5d6"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "ab2e352ae8fdb3062414df59cf72d44f61c057f97b9b361799b582c2c6fa82ae"
+    },
+    "lovescape-premium-one-image-cost-quote": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-premium-one-image-cost-quote",
+      "order": 7,
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "activationAt": "2026-11-24T09:00:00.000Z",
+      "contentSha256": "dded082857f84a8fd3624b8be1ffc9a3f2665a521ddfd665e6957625a2fff602",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:21:46.514Z",
+      "factsCheckedAt": "2026-11-16T11:21:25Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Premium membership help",
+          "url": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+          "note": "Describes plan inclusions and billing. Reader checks the charge shown for specific actions rather than assuming each action is included.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-premium-one-image-cost-quote.json",
+              "sha256": "ecc697f7ad43bfeb14de090f18dc692e1ed9e41e00708c90b102524481f3058f"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape Chips help",
+          "url": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+          "note": "Documents image quotes and chip sources, including the distinct subscription and top-up pools.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-premium-one-image-cost-quote.json",
+              "sha256": "ecc697f7ad43bfeb14de090f18dc692e1ed9e41e00708c90b102524481f3058f"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "e25b40932cdd94d4e453b7c0cf7f3ea5dfab00814a418d710ae434436d21a6be"
+    },
+    "lovescape-chip-expiration-next-session-plan": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-chip-expiration-next-session-plan",
+      "order": 8,
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "activationAt": "2026-12-01T09:00:00.000Z",
+      "contentSha256": "729a5e8c81011b220a37869852fcaa1c0d67e01d81e2291dcce8cf1a68d6049e",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:21:46.514Z",
+      "factsCheckedAt": "2026-11-16T11:21:25Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Chips help",
+          "url": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+          "note": "Documents image quotes and chip sources, including the distinct subscription and top-up pools.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-chip-expiration-next-session-plan.json",
+              "sha256": "80b483591bdc173e480039622e410fa311ec7e14b5f5ee83c8ecb59ef68ed938"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape Premium membership help",
+          "url": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+          "note": "Describes plan inclusions and billing. Reader checks the charge shown for specific actions rather than assuming each action is included.",
+          "checkedAt": "2026-11-16T11:21:25Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/lovescape-chip-expiration-next-session-plan.json",
+              "sha256": "80b483591bdc173e480039622e410fa311ec7e14b5f5ee83c8ecb59ef68ed938"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "9a1055309ddcebe3d5a87dfb41c848f5f5b626843987ed7b2c98af117080fe80"
     }
   }
 }

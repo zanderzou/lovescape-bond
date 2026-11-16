@@ -1,0 +1,38 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-chip-expiration-next-session-plan",
+  "order": 8,
+  "reviewedAt": "2026-11-16T11:21:46.514Z",
+  "factsCheckedAt": "2026-11-16T11:21:25Z",
+  "contentSha256": "729a5e8c81011b220a37869852fcaa1c0d67e01d81e2291dcce8cf1a68d6049e",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-01T09:00:00.000Z",
+  "readerQuestion": "How should I plan Lovescape image work near a chip renewal?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Chips help",
+      "url": "https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them",
+      "note": "Documents image quotes and chip sources, including the distinct subscription and top-up pools."
+    },
+    {
+      "name": "Lovescape Premium membership help",
+      "url": "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership",
+      "note": "Describes plan inclusions and billing. Reader checks the charge shown for specific actions rather than assuming each action is included."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-chip-expiration-next-session-plan.png",
+    "sha256": "3797b78d166fb9e21364c082128afab6430b6a8f0ee23ee235c66d2ff44985d9",
+    "type": "Original editorial diagram",
+    "alt": "Read the plan date. Distinguish subscription and top-up chips. Decide which image you need now."
+  },
+  "editorialReview": {
+    "readerAction": "Separate recurring chips and top-ups when budgeting a fictional scene that spans two billing dates.",
+    "wordCount": 153,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}
