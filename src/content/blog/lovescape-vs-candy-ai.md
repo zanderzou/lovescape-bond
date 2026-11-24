@@ -2,7 +2,7 @@
 title: "Lovescape vs Candy AI: Which Companion Studio Fits?"
 description: "Compare Lovescape and Candy AI by character creation, chat, images, voice, video, pricing currencies, privacy, moderation, and the workflow each product prioritizes."
 publishDate: 2026-09-19
-updatedDate: 2026-09-30
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "10 min read"
 accent: "rose"
@@ -69,7 +69,7 @@ Do not try to clone another person's voice. Ask how recordings are processed, st
 
 ## Pricing: Chips versus tokens
 
-Lovescape separates subscription access from Chips. Official guidance says purchased Chips do not expire, are non-refundable, show their cost before generation, and can be bought only by active subscribers. Premium promotes unlimited chat and access to major features, but media volume can still depend on Chip spending.
+Lovescape separates subscription access from Chips. The current Chips guide says each image shows its cost before generation. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire. Check the selected purchase and refund conditions separately. Premium promotes unlimited chat and access to major features, but media volume can still depend on Chip spending.
 
 Candy AI has its own subscription and token economy. Compare the cost of a real week, not the headline plan:
 

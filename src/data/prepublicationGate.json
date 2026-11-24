@@ -43,6 +43,50 @@
       "sourceCommit": "e77455ebd5a0c8b23e93e0204c718ea23493116b",
       "deploymentId": "0c97cc1d-bff6-4b77-a7ee-2d300750f763",
       "responseSha256": "cf6e61d28d1a1f5fef8a154c1e1c8527a87797426ed22294e096a4e436e04792"
+    },
+    {
+      "order": 4,
+      "slug": "lovescape-cancel-premium-vs-ultra-billing",
+      "releaseAt": "2026-10-30T02:24:12.508Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:10:45.783Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-cancel-premium-vs-ultra-billing/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+      "deploymentId": "0fda6fcd-c029-48ce-8c76-089ab9f6fd3d",
+      "responseSha256": "a44510d985354e5fae76b9d2b581f4e21078da50865e1ec0dc41d07712aed276",
+      "publicationProvenance": {
+        "priorCertificateDigest": "b975f16de9edf7062718be52de9b4111940b668d766154277f0e8ec0916de393",
+        "activationAt": "2026-10-30T02:24:12.508Z",
+        "priorContentSha256": "5d8c7f904dfd14b56d2583d766f6058dfe45fae34ca4382e630ff376d3ad5f74",
+        "runtimeSha256": "92d5079b6b90090df5e14a89cf35b772711a325083cedb932d6a9c2f5716ba31",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/lovescape-cancel-premium-vs-ultra-billing-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
+    },
+    {
+      "order": 5,
+      "slug": "lovescape-chips-balance-token-history",
+      "releaseAt": "2026-11-06T12:57:51.508Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:10:46.043Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-chips-balance-token-history/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+      "deploymentId": "0fda6fcd-c029-48ce-8c76-089ab9f6fd3d",
+      "responseSha256": "a44510d985354e5fae76b9d2b581f4e21078da50865e1ec0dc41d07712aed276",
+      "publicationProvenance": {
+        "priorCertificateDigest": "7e1033684c50c16ac94c4e7d88c923940d85182fa12cce3f193e752363410572",
+        "activationAt": "2026-11-06T12:57:51.508Z",
+        "priorContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+        "runtimeSha256": "92d5079b6b90090df5e14a89cf35b772711a325083cedb932d6a9c2f5716ba31",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/lovescape-chips-balance-token-history-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
     }
   ],
   "certificates": {

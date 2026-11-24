@@ -1,0 +1,77 @@
+{
+  "domain": "lovescape.bond",
+  "recordedAt": "2026-11-24T03:04:10.750Z",
+  "previousProduction": {
+    "main": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+    "commit": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+    "id": "0fda6fcd-c029-48ce-8c76-089ab9f6fd3d",
+    "url": "https://0fda6fcd.lovescape-bond.pages.dev",
+    "createdAt": "2026-11-16T11:23:41.883499Z",
+    "triggerType": "ad_hoc",
+    "gitIntegration": false,
+    "productionBranch": "main"
+  },
+  "addedLawfullyPublishedPrefix": [
+    {
+      "order": 4,
+      "slug": "lovescape-cancel-premium-vs-ultra-billing",
+      "releaseAt": "2026-10-30T02:24:12.508Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:10:45.783Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-cancel-premium-vs-ultra-billing/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+      "deploymentId": "0fda6fcd-c029-48ce-8c76-089ab9f6fd3d",
+      "responseSha256": "a44510d985354e5fae76b9d2b581f4e21078da50865e1ec0dc41d07712aed276",
+      "publicationProvenance": {
+        "priorCertificateDigest": "b975f16de9edf7062718be52de9b4111940b668d766154277f0e8ec0916de393",
+        "activationAt": "2026-10-30T02:24:12.508Z",
+        "priorContentSha256": "5d8c7f904dfd14b56d2583d766f6058dfe45fae34ca4382e630ff376d3ad5f74",
+        "runtimeSha256": "92d5079b6b90090df5e14a89cf35b772711a325083cedb932d6a9c2f5716ba31",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/lovescape-cancel-premium-vs-ultra-billing-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
+    },
+    {
+      "order": 5,
+      "slug": "lovescape-chips-balance-token-history",
+      "releaseAt": "2026-11-06T12:57:51.508Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:10:46.043Z",
+      "canonical": "https://lovescape.bond/blog/lovescape-chips-balance-token-history/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8aa4de36eceb3e6e929b6e4ed0b8981734ec123e",
+      "deploymentId": "0fda6fcd-c029-48ce-8c76-089ab9f6fd3d",
+      "responseSha256": "a44510d985354e5fae76b9d2b581f4e21078da50865e1ec0dc41d07712aed276",
+      "publicationProvenance": {
+        "priorCertificateDigest": "7e1033684c50c16ac94c4e7d88c923940d85182fa12cce3f193e752363410572",
+        "activationAt": "2026-11-06T12:57:51.508Z",
+        "priorContentSha256": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+        "runtimeSha256": "92d5079b6b90090df5e14a89cf35b772711a325083cedb932d6a9c2f5716ba31",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/lovescape-chips-balance-token-history-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
+    }
+  ],
+  "changedAlreadyPublicArticles": [
+    {
+      "slug": "lovescape-chips-balance-token-history",
+      "previousHash": "acb86eee6883bf0868792381758ff62e4942668090f0fc15f960e5bfd5458bf6",
+      "finalHash": "5fba33b48deda5d36af97482b2d19dd0e0dd3e4137901f53db1920c04866596c"
+    }
+  ],
+  "actualOriginalActivationTimesRetained": true,
+  "sourceProof": {
+    "path": "research/prepublish-tested-seo-20261023/runs/2026-11-24T005903Z/current-production-readback.json",
+    "sha256": "bb3510563a8f2d0112bafbc0631da9dc5417e13b8008df78f216512138f5b44f"
+  },
+  "preflightProof": {
+    "path": "research/prepublish-tested-seo-20261023/runs/2026-11-24T005903Z/verified-sites/lovescape.bond.json",
+    "sha256": "afe3d1d21bab41fdc7ec7f1c76b50dd9b8f2d317e0ae8d0b352afac91df90611"
+  },
+  "observation": "Existing 200 body, canonical, exact source and previously validated deployed clearance establish lawful publication. This is maintenance of already-public content, not a new or backdated clearance."
+}

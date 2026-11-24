@@ -2,7 +2,7 @@
 title: "Lovescape vs DreamGF: Character Story or Appearance Builder?"
 description: "Compare Lovescape and DreamGF on creation order, visual controls, chat continuity, paid allowances, generated-media rules, and the best first test for each product."
 publishDate: 2026-09-22
-updatedDate: 2026-09-30
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "8 min read"
 accent: "violet"
@@ -55,7 +55,7 @@ Do not upload a real person's photo to force a comparison. Lovescape says it has
 
 ## Chips, messages, and what a retry costs
 
-Lovescape documents Chips as an extra currency primarily for image generation. Its guide says purchased Chips do not expire and are non-refundable, and only active subscribers can buy them. A subscription can therefore be only the beginning of a media-heavy budget. Ask how many attempts you typically need for one usable image and whether edits or video consume additional resources.
+Lovescape documents Chips as an extra currency primarily for image generation. Its current guide distinguishes the balances. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire. Check the offer for the balance you intend to buy. A subscription can therefore be only the beginning of a media-heavy budget. Ask how many attempts you typically need for one usable image and whether edits or video consume additional resources.
 
 DreamGF advertises a free entry path, daily messages and paid plans, but the exact plan information should be read at checkout. Make a one-week worksheet: free messages used, paid messages, images requested, retakes, exports, and renewal price. If the visual builder is your main draw, price several variations; if chat is your goal, price a week of conversations instead. These are different budgets.
 

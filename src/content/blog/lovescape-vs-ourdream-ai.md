@@ -2,7 +2,7 @@
 title: "Lovescape vs OurDream AI: Chat, Images & Video"
 description: "Compare Lovescape and OurDream AI by character creation, chat continuity, image and video workflows, voice, pricing currencies, privacy, consent, and best-fit use cases."
 publishDate: 2026-09-18
-updatedDate: 2026-09-30
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "10 min read"
 accent: "violet"
@@ -89,7 +89,7 @@ Then ask whether the systems share context. Does the image prompt inherit the es
 
 ## Chips versus DreamCoins
 
-Lovescape documents Chips as an account currency used mainly for image generation. Purchased Chips do not expire but are non-refundable, and only active subscribers can buy them. Costs should appear before generation and usage should appear in Token History.
+Lovescape documents Chips as an account currency used mainly for image generation. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire. The guide says an image shows its cost before generation; clicking the balance opens detailed usage. Read the selected purchase and refund terms separately.
 
 OurDream AI has its own plan and DreamCoin economics. For both services, calculate a weekly basket containing chat, image variations, one voice action, and one short clip. Include failed or moderated outputs if the provider charges for them.
 

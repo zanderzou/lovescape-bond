@@ -2,7 +2,7 @@
 title: "Lovescape vs Swipey AI: Build a Character or Browse the Feed?"
 description: "A source-led comparison of Lovescape character building and Swipey AI's Explorer feed, creator models, relationship features, credits, and privacy choices."
 publishDate: 2026-09-22
-updatedDate: 2026-09-30
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "8 min read"
 accent: "violet"
@@ -53,7 +53,7 @@ Lovescape's [published boundaries](https://lovescape.com/blog/what-is-lovescape-
 
 ## Treat the virtual currencies as different products
 
-Lovescape [says](https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them) its Chips are chiefly used for image generation. The per-image cost is shown before generation; purchased Chips do not expire but are non-refundable, and an active subscription is required to buy them. Promotional Chips may follow separate campaign rules. Check the current plan and token history rather than treating “monthly price” as the total media budget.
+Lovescape’s current Chips guide says the per-image cost is shown before generation. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire. Check the current plan, credit category and detailed usage rather than treating the monthly price as the total media budget. Purchase and refund conditions require a separate check.
 
 Swipey's [Hearts FAQ](https://swipey.ai/faq/hearts-billing/do-hearts-expire) says purchased Hearts remain while the account is active and are not dependent on an active Premium plan. They can fund extras such as calls billed by the minute, extended video scenes, and creator media. Premium still unlocks access to features; for example, its [voice-call FAQ](https://swipey.ai/faq/chat-relationship/what-is-the-call-memory-card-after-a-voice-call) says calls require Premium *and* spend Hearts per minute. A creator Fan Club is yet another choice. List the exact actions you want, then estimate the relevant plan, Hearts, and Fan Club costs separately. Neither provider's currency balance should be equated with a refund right.
 

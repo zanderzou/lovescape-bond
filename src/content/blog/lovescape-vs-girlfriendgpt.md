@@ -2,7 +2,7 @@
 title: "Lovescape vs GirlfriendGPT: Creator Workflow or Character Library?"
 description: "Compare Lovescape and GirlfriendGPT on character discovery, original creation, chat continuity, generated images, privacy rules, and the cost of a repeatable week."
 publishDate: 2026-09-22
-updatedDate: 2026-09-30
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "8 min read"
 accent: "violet"
@@ -56,7 +56,7 @@ Record the actions you actually perform: one character setup, one in-chat or sta
 
 ## Price a week, not a headline subscription
 
-Lovescape's official Chips guide says purchased Chips are non-refundable, do not expire, and are primarily used for image generation; only active subscribers can buy them. Official Lovescape pages also describe Premium and Creative PRO, with inconsistent wording about the highest tier. Verify the live checkout rather than quoting a fixed tier or price. GirlfriendGPT's current plan and generation allowances must likewise be checked at checkout. Create a cost ledger for chat sessions, images, retries, voice, video attempts, renewal, and unused credits.
+Lovescape's current Chips guide describes a currency primarily used for image generation. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire. Check the current purchase and refund terms for the selected category. Official Lovescape pages also describe Premium and Creative PRO, with inconsistent wording about the highest tier. Verify the live checkout rather than quoting a fixed tier or price. GirlfriendGPT's current plan and generation allowances must likewise be checked at checkout. Create a cost ledger for chat sessions, images, retries, voice, video attempts, renewal, and unused credits.
 
 The lowest advertised monthly price can lose if your normal workflow needs repeated media attempts. Conversely, a media-heavy plan is poor value if you only want text roleplay. Compare the cost of a usable result, not the cost of opening an account.
 

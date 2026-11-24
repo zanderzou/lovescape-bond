@@ -1,12 +1,12 @@
 ---
 title: "Lovescape Chips Balance: Reconcile Purchases, Promo Credits and Use"
-description: "Read Lovescape Token History to distinguish credit types and later deductions, and keep the Chips ledger separate from the subscription receipt."
+description: "Distinguish Lovescape credit types, expiry and later deductions, and keep the Chips ledger separate from the subscription receipt."
 publishDate: "2026-11-06"
-updatedDate: "2026-10-19"
+updatedDate: "2026-11-24"
 category: "Practical guide"
 readTime: "3 min read"
 accent: "violet"
-answer: "Lovescape’s Chips guide distinguishes purchased and promotional credits and points to Token History for activity. Compare the opening balance, recorded credits and deductions over one period. A Chips balance, eligibility to purchase more and a subscription renewal are separate records; do not infer all three from the number at the top of the screen."
+answer: "Lovescape’s Chips guide distinguishes subscription, recurring-pack, one-time-pack and promotional credits. Clicking the balance opens detailed usage. Compare the opening balance, recorded credits and deductions over one period. A Chips balance, eligibility to purchase more and a subscription renewal are separate records; do not infer all three from the number at the top of the screen."
 keywords: ["lovescape ai credits"]
 sources:
   - name: "Lovescape: Chips and token history"
@@ -15,7 +15,7 @@ sources:
     url: "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
 ---
 
-**A current Chips balance is the end of a sequence, not a complete explanation of it.** Lovescape's [Chips help page](https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them) identifies purchased and promotional Chips and describes Token History for viewing activity.
+**A current Chips balance is the end of a sequence, not a complete explanation of it.** Lovescape's [Chips help page](https://help.lovescape.com/hc/en-us/articles/30828415556881-Lovescape-Chips-What-They-Are-How-They-Work-and-How-to-Use-Them) distinguishes the four credit categories and says clicking your balance opens detailed usage.
 
 Start with that history when a balance looks unexpected. A screenshot of today's number alone cannot show which earlier credit or deduction produced it.
 
@@ -38,9 +38,9 @@ If the actual ledger does not reconcile, identify the first unexplained entry ra
 
 ## Label the credit category
 
-The official page distinguishes purchased and promotional credits. Preserve that label in your notes. A promotion's announcement and an actual credit entry are different evidence; being shown an offer does not prove it was applied.
+The official page distinguishes subscription Chips, recurring Subscription chip packs, one-time Chip Packs and Promo Chips. Preserve the category and purchase or renewal date in your notes. Subscription Chips expire at renewal, recurring chip packs expire at the end of their 30-day period, one-time Chip Packs expire 90 days after purchase, and Promo Chips do not expire.
 
-The guide says Chips do not expire and describes purchase conditions. Treat those as the provider's published statements, with any account-specific or offer-specific conditions checked separately. This article does not verify a private credit balance or certify refund eligibility.
+Include expiry deductions and period resets when reconciling your real ledger. A promotion announcement alone does not prove that credit was applied. Check the selected offer and ask support about any unexplained entry. This article does not verify a private balance or certify refund eligibility.
 
 ## Keep membership on a separate record
 
