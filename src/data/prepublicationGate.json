@@ -365,6 +365,122 @@
       ],
       "observations": [],
       "certificateDigest": "9a1055309ddcebe3d5a87dfb41c848f5f5b626843987ed7b2c98af117080fe80"
+    },
+    "lovescape-clear-chat-delete-character-different-loss": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-clear-chat-delete-character-different-loss",
+      "order": 9,
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "activationAt": "2026-12-08T09:00:00.000Z",
+      "contentSha256": "3d863a53feb3f4f85b00d37e654d40277f69d9bc44da741de7ca630fab27be67",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:33:02.573Z",
+      "factsCheckedAt": "2026-11-26T10:33:02.573Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Help: manage, edit and share characters",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters",
+          "note": "Read character profile route, separate Clear Chat and Delete Character irreversible actions, heart favorites and public-profile link sharing. No destructive operation performed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1146view5;turn1148view2;turn1148view3",
+          "checkedAt": "2026-11-26T10:33:02.573Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/lovescape-clear-chat-delete-character-different-loss.json",
+              "sha256": "0350ea45f0b0a7a2ec02ff0b9d4267a09654dfc7b7556653b51fb21f18070ce8"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape Help: what defines an AI character",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+          "note": "Read traits, sample chat, persona and ongoing context as separate contributions. No perfect recall or model-retraining claim adopted.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1146view6",
+          "checkedAt": "2026-11-26T10:33:02.573Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/lovescape-clear-chat-delete-character-different-loss.json",
+              "sha256": "0350ea45f0b0a7a2ec02ff0b9d4267a09654dfc7b7556653b51fb21f18070ce8"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "4188598869f3092f672144e2716a62ad632cd80689ca60e6e61667a505524320"
+    },
+    "lovescape-favorite-character-public-profile-share": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-favorite-character-public-profile-share",
+      "order": 10,
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "activationAt": "2026-12-15T09:00:00.000Z",
+      "contentSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:33:02.573Z",
+      "factsCheckedAt": "2026-11-26T10:33:02.573Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Help: manage, edit and share characters",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters",
+          "note": "Read character profile route, separate Clear Chat and Delete Character irreversible actions, heart favorites and public-profile link sharing. No destructive operation performed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1146view5;turn1148view2;turn1148view3",
+          "checkedAt": "2026-11-26T10:33:02.573Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/lovescape-favorite-character-public-profile-share.json",
+              "sha256": "f0f427f0fe2e7652beb81daa31ba105ce14a5c3e3ecf3a29fbb5bce486e49d8e"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape Help: consistency and privacy limits",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained",
+          "note": "Read private/public character distinction and potential inconsistencies. Broad security guarantees not adopted and no visibility setting changed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1147view1;turn1148view4",
+          "checkedAt": "2026-11-26T10:33:02.573Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/lovescape-favorite-character-public-profile-share.json",
+              "sha256": "f0f427f0fe2e7652beb81daa31ba105ce14a5c3e3ecf3a29fbb5bce486e49d8e"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "2744f6b23df1fcc08a56fa121fbd229a2ee3ab527db5184a06fdc40e25f7afae"
     }
   }
 }

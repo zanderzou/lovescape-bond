@@ -1,0 +1,53 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-clear-chat-delete-character-different-loss",
+  "order": 9,
+  "reviewedAt": "2026-11-26T10:33:02.573Z",
+  "factsCheckedAt": "2026-11-26T10:33:02.573Z",
+  "contentSha256": "3d863a53feb3f4f85b00d37e654d40277f69d9bc44da741de7ca630fab27be67",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-08T09:00:00.000Z",
+  "readerQuestion": "Can I remove a conversation while keeping the character available?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Help: manage, edit and share characters",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters",
+      "note": "Read character profile route, separate Clear Chat and Delete Character irreversible actions, heart favorites and public-profile link sharing. No destructive operation performed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1146view5;turn1148view2;turn1148view3"
+    },
+    {
+      "name": "Lovescape Help: what defines an AI character",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+      "note": "Read traits, sample chat, persona and ongoing context as separate contributions. No perfect recall or model-retraining claim adopted.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1146view6"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-clear-chat-delete-character-different-loss.webp",
+    "sha256": "b04a6d921831db17d7ae0952b4c7db7ba47baf816f2036380377705480c684da",
+    "originalPngSha256": "976d160b01dd052ab1a1e1c80b7f4a9583818dafc024ab4497c86a221402f49a",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An original adult fictional woman in an opaque emerald one-piece swimsuit stands beside a closed journal and a separate upright framed character portrait.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object.",
+    "wordCount": 360,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "Can I remove a conversation while keeping the character available?",
+      "independentValue": "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object.",
+      "image": "An original adult fictional woman in an opaque emerald one-piece swimsuit stands beside a closed journal and a separate upright framed character portrait.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

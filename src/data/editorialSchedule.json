@@ -214,6 +214,56 @@
           "https://help.lovescape.com/hc/en-us/articles/31060479234705-Lovescape-Premium-Membership"
         ]
       ]
+    },
+    {
+      "order": 9,
+      "slug": "lovescape-clear-chat-delete-character-different-loss",
+      "title": "Lovescape Clear Chat or Delete Character: Check What You Will Lose",
+      "readerQuestion": "Can I remove a conversation while keeping the character available?",
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "notBefore": "2026-12-08T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "3d863a53feb3f4f85b00d37e654d40277f69d9bc44da741de7ca630fab27be67",
+      "wordCount": 360,
+      "editorialIntent": "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object.",
+      "sources": [
+        [
+          "Lovescape Help: manage, edit and share characters",
+          "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters"
+        ],
+        [
+          "Lovescape Help: what defines an AI character",
+          "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape"
+        ]
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "lovescape-favorite-character-public-profile-share",
+      "title": "Lovescape Favorites and Sharing: A Heart Is a Different Choice",
+      "readerQuestion": "Does marking a character as a favorite make its profile public or share it with someone else?",
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "notBefore": "2026-12-15T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+      "wordCount": 355,
+      "editorialIntent": "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link.",
+      "sources": [
+        [
+          "Lovescape Help: manage, edit and share characters",
+          "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters"
+        ],
+        [
+          "Lovescape Help: consistency and privacy limits",
+          "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

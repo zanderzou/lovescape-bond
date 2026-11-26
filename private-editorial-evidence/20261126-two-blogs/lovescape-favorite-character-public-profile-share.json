@@ -1,0 +1,53 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-favorite-character-public-profile-share",
+  "order": 10,
+  "reviewedAt": "2026-11-26T10:33:02.573Z",
+  "factsCheckedAt": "2026-11-26T10:33:02.573Z",
+  "contentSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-15T09:00:00.000Z",
+  "readerQuestion": "Does marking a character as a favorite make its profile public or share it with someone else?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Help: manage, edit and share characters",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26017197129745-Lovescape-Character-Profiles-How-to-Manage-Edit-and-Share-Characters",
+      "note": "Read character profile route, separate Clear Chat and Delete Character irreversible actions, heart favorites and public-profile link sharing. No destructive operation performed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1146view5;turn1148view2;turn1148view3"
+    },
+    {
+      "name": "Lovescape Help: consistency and privacy limits",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained",
+      "note": "Read private/public character distinction and potential inconsistencies. Broad security guarantees not adopted and no visibility setting changed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1147view1;turn1148view4"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-favorite-character-public-profile-share.webp",
+    "sha256": "5a21d7a1b65ba377d04de8e7ca1bb9f8874d1615499df3a3a0b69b96fa2b5d7f",
+    "originalPngSha256": "0572e2db21b2e238cc00605e7523dba9ca7bbf36607ab4b9d48c75f6d2509b95",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An original adult fictional woman places a heart-shaped bookmark in her own teal album while a separate portrait print stands on an easel.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link.",
+    "wordCount": 355,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "Does marking a character as a favorite make its profile public or share it with someone else?",
+      "independentValue": "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link.",
+      "image": "An original adult fictional woman places a heart-shaped bookmark in her own teal album while a separate portrait print stands on an easel.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}
