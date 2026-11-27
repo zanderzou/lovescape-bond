@@ -373,7 +373,7 @@
       "order": 9,
       "releaseAt": "2026-12-08T09:00:00.000Z",
       "activationAt": "2026-12-08T09:00:00.000Z",
-      "contentSha256": "3d863a53feb3f4f85b00d37e654d40277f69d9bc44da741de7ca630fab27be67",
+      "contentSha256": "a38a534005628c19fb46540c017d5e23aea2f915feade5aaf831ec950b5eeeb1",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -401,7 +401,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/lovescape-clear-chat-delete-character-different-loss.json",
-              "sha256": "0350ea45f0b0a7a2ec02ff0b9d4267a09654dfc7b7556653b51fb21f18070ce8"
+              "sha256": "afd2e1299e58a80b855b8dcc9fc91204039647ba0c9a73780a5e0d7d36cf9e0d"
             }
           ]
         },
@@ -416,13 +416,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/lovescape-clear-chat-delete-character-different-loss.json",
-              "sha256": "0350ea45f0b0a7a2ec02ff0b9d4267a09654dfc7b7556653b51fb21f18070ce8"
+              "sha256": "afd2e1299e58a80b855b8dcc9fc91204039647ba0c9a73780a5e0d7d36cf9e0d"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "4188598869f3092f672144e2716a62ad632cd80689ca60e6e61667a505524320"
+      "certificateDigest": "996f5e926298f0f480747c3c2676572d90cc0cdf999cfe5958ed4ffb0184dd19"
     },
     "lovescape-favorite-character-public-profile-share": {
       "schemaVersion": 1,
@@ -431,7 +431,7 @@
       "order": 10,
       "releaseAt": "2026-12-15T09:00:00.000Z",
       "activationAt": "2026-12-15T09:00:00.000Z",
-      "contentSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+      "contentSha256": "9add00944f5e7c3d314714727f6832495e37b63de07d65d5fe7578f6b616623d",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -459,7 +459,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/lovescape-favorite-character-public-profile-share.json",
-              "sha256": "f0f427f0fe2e7652beb81daa31ba105ce14a5c3e3ecf3a29fbb5bce486e49d8e"
+              "sha256": "53e4faf93186b02dd92b463989672682fee0e411b6bad9a6d0cbb875dac10d0a"
             }
           ]
         },
@@ -474,13 +474,129 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/lovescape-favorite-character-public-profile-share.json",
-              "sha256": "f0f427f0fe2e7652beb81daa31ba105ce14a5c3e3ecf3a29fbb5bce486e49d8e"
+              "sha256": "53e4faf93186b02dd92b463989672682fee0e411b6bad9a6d0cbb875dac10d0a"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "2744f6b23df1fcc08a56fa121fbd229a2ee3ab527db5184a06fdc40e25f7afae"
+      "certificateDigest": "3a4f8deb7558f780d9598db035b439c1676654682b24e6bcc6f2e173c2008aa2"
+    },
+    "lovescape-image-pick-one-visible-acceptance-check": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-image-pick-one-visible-acceptance-check",
+      "order": 11,
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "activationAt": "2026-12-22T09:00:00.000Z",
+      "contentSha256": "e5e64b7b13f9af823098880c7baa11c263b78c16468f21bbaf8f5cc68e218ebf",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:09:56.409Z",
+      "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape editorial guide to character images and scene descriptions",
+          "url": "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/",
+          "note": "Read the provider distinction between fictional character appearance and scene instructions for outfit, pose and setting. Keep fictional adults and text-only prompts. No guarantee of appearance, pose, prop accuracy or exact cost.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1220view0",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/lovescape-image-pick-one-visible-acceptance-check.json",
+              "sha256": "4761b5af50f846b021efeb32b12318ccb715da8f69b9b54609111eeb68a57cc1"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape Help on traits and sample conversations",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+          "note": "Read the distinction among character traits, sample dialogue, user persona and conversation context. The A/B example is a local writing exercise and never modifies a character.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1220view1",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/lovescape-image-pick-one-visible-acceptance-check.json",
+              "sha256": "4761b5af50f846b021efeb32b12318ccb715da8f69b9b54609111eeb68a57cc1"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "b86e9aa65dd7b646df347f7bb2e65dc55e5ba6f8fb44b7d3f2b946ad7e97cbe2"
+    },
+    "lovescape-compare-two-dialogue-drafts-with-the-same-character": {
+      "schemaVersion": 1,
+      "domain": "lovescape.bond",
+      "slug": "lovescape-compare-two-dialogue-drafts-with-the-same-character",
+      "order": 12,
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "activationAt": "2026-12-29T09:00:00.000Z",
+      "contentSha256": "db3bccf1d88b7cd80861fb0022e134f2e14df3443853d8f7e842acc41cdc3383",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:09:56.409Z",
+      "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Lovescape Help on traits and sample conversations",
+          "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+          "note": "Read the distinction among character traits, sample dialogue, user persona and conversation context. The A/B example is a local writing exercise and never modifies a character.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1220view1",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/lovescape-compare-two-dialogue-drafts-with-the-same-character.json",
+              "sha256": "1f0b5b69a9ac0e5760b6182f1340c80713b20fdcf4cb25c2e34e181998d2a2ee"
+            }
+          ]
+        },
+        {
+          "name": "Lovescape editorial guide to character images and scene descriptions",
+          "url": "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/",
+          "note": "Read the provider distinction between fictional character appearance and scene instructions for outfit, pose and setting. Keep fictional adults and text-only prompts. No guarantee of appearance, pose, prop accuracy or exact cost.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1220view0",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/lovescape-compare-two-dialogue-drafts-with-the-same-character.json",
+              "sha256": "1f0b5b69a9ac0e5760b6182f1340c80713b20fdcf4cb25c2e34e181998d2a2ee"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "c86f56872ac33528bed51963c3ce8705d54905dd874f4c544a6fd09ee19bbeaf"
     }
   }
 }

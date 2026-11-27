@@ -1,0 +1,53 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-compare-two-dialogue-drafts-with-the-same-character",
+  "order": 12,
+  "reviewedAt": "2026-11-27T01:09:56.409Z",
+  "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+  "contentSha256": "db3bccf1d88b7cd80861fb0022e134f2e14df3443853d8f7e842acc41cdc3383",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-29T09:00:00.000Z",
+  "readerQuestion": "How can I choose between two sample replies without changing the character’s identity or backstory?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape Help on traits and sample conversations",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+      "note": "Read the distinction among character traits, sample dialogue, user persona and conversation context. The A/B example is a local writing exercise and never modifies a character.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1220view1"
+    },
+    {
+      "name": "Lovescape editorial guide to character images and scene descriptions",
+      "url": "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/",
+      "note": "Read the provider distinction between fictional character appearance and scene instructions for outfit, pose and setting. Keep fictional adults and text-only prompts. No guarantee of appearance, pose, prop accuracy or exact cost.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1220view0"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-compare-two-dialogue-drafts-with-the-same-character.webp",
+    "sha256": "a62d61461d6010cbaa46885e4221377e14424796500d42b8ffc1222733a1d355",
+    "originalPngSha256": "13dfb88198f2aff29657a3ac26b6e7e65476ecae60ffae720f00a75d9e2737e3",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "A fictional adult holds two short paper drafts beside one portrait and a small stage.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Write two sample replies to the same fictional prompt and compare one observable behavior before using either.",
+    "wordCount": 235,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How can I choose between two sample replies without changing the character’s identity or backstory?",
+      "independentValue": "Write two sample replies to the same fictional prompt and compare one observable behavior before using either.",
+      "image": "A fictional adult holds two short paper drafts beside one portrait and a small stage.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

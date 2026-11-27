@@ -2,7 +2,7 @@
 title: "Lovescape Favorites and Sharing: A Heart Is a Different Choice"
 description: "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link."
 publishDate: "2026-12-15"
-updatedDate: "2026-12-15"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link."

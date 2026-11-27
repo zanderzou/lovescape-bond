@@ -1,0 +1,53 @@
+{
+  "domain": "lovescape.bond",
+  "slug": "lovescape-image-pick-one-visible-acceptance-check",
+  "order": 11,
+  "reviewedAt": "2026-11-27T01:09:56.409Z",
+  "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+  "contentSha256": "e5e64b7b13f9af823098880c7baa11c263b78c16468f21bbaf8f5cc68e218ebf",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-22T09:00:00.000Z",
+  "readerQuestion": "How do I decide if a Lovescape image is useful enough before starting another request?",
+  "applicableClaims": [
+    {
+      "name": "Lovescape editorial guide to character images and scene descriptions",
+      "url": "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/",
+      "note": "Read the provider distinction between fictional character appearance and scene instructions for outfit, pose and setting. Keep fictional adults and text-only prompts. No guarantee of appearance, pose, prop accuracy or exact cost.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1220view0"
+    },
+    {
+      "name": "Lovescape Help on traits and sample conversations",
+      "url": "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape",
+      "note": "Read the distinction among character traits, sample dialogue, user persona and conversation context. The A/B example is a local writing exercise and never modifies a character.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1220view1"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/lovescape.bond/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-lovescape-image-pick-one-visible-acceptance-check.webp",
+    "sha256": "2b43a432fa526ae4b134e17e60b5cca339ef3d2803c37ba4f0c8f99e8ef0f301",
+    "originalPngSha256": "e0849b0dc690d4ad6c21f3d8c60e50c8e51b4e1e0fa244cd03f54777d82b6df6",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An editorial portrait of a fictional adult beside two samples, one showing a red fan and one without the prop.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Choose one visible requirement, evaluate it at the final viewing size, and revise only what keeps the first picture from working.",
+    "wordCount": 242,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How do I decide if a Lovescape image is useful enough before starting another request?",
+      "independentValue": "Choose one visible requirement, evaluate it at the final viewing size, and revise only what keeps the first picture from working.",
+      "image": "An editorial portrait of a fictional adult beside two samples, one showing a red fan and one without the prop.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

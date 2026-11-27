@@ -2,7 +2,7 @@
 title: "Lovescape Clear Chat or Delete Character: Check What You Will Lose"
 description: "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object."
 publishDate: "2026-12-08"
-updatedDate: "2026-12-08"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object."

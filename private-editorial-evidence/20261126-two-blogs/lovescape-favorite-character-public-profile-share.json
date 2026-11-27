@@ -4,7 +4,7 @@
   "order": 10,
   "reviewedAt": "2026-11-26T10:33:02.573Z",
   "factsCheckedAt": "2026-11-26T10:33:02.573Z",
-  "contentSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+  "contentSha256": "9add00944f5e7c3d314714727f6832495e37b63de07d65d5fe7578f6b616623d",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-15T09:00:00.000Z",
   "readerQuestion": "Does marking a character as a favorite make its profile public or share it with someone else?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-27T01:10:10.592Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+    "previousCertificateDigest": "2744f6b23df1fcc08a56fa121fbd229a2ee3ab527db5184a06fdc40e25f7afae",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

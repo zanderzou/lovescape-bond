@@ -226,7 +226,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "3d863a53feb3f4f85b00d37e654d40277f69d9bc44da741de7ca630fab27be67",
+      "reviewedSha256": "a38a534005628c19fb46540c017d5e23aea2f915feade5aaf831ec950b5eeeb1",
       "wordCount": 360,
       "editorialIntent": "Review the separate history and character actions, preserve anything you need beforehand and read the confirmation for the intended object.",
       "sources": [
@@ -251,7 +251,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "ff3ca883324c56cd53e976f0556ed44aa16f6c5be01e89007df447fd44ae9e38",
+      "reviewedSha256": "9add00944f5e7c3d314714727f6832495e37b63de07d65d5fe7578f6b616623d",
       "wordCount": 355,
       "editorialIntent": "Use the documented favorite control for quick access, and inspect profile visibility separately before deliberately sharing a character link.",
       "sources": [
@@ -262,6 +262,56 @@
         [
           "Lovescape Help: consistency and privacy limits",
           "https://help.lovescape.com/hc/en-us/articles/26467822971025-Lovescape-AI-Limitations-Challenges-Consistency-and-Privacy-Explained"
+        ]
+      ]
+    },
+    {
+      "order": 11,
+      "slug": "lovescape-image-pick-one-visible-acceptance-check",
+      "title": "Pick One Visible Check Before Requesting Another Lovescape Image",
+      "readerQuestion": "How do I decide if a Lovescape image is useful enough before starting another request?",
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "notBefore": "2026-12-22T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "e5e64b7b13f9af823098880c7baa11c263b78c16468f21bbaf8f5cc68e218ebf",
+      "wordCount": 242,
+      "editorialIntent": "Choose one visible requirement, evaluate it at the final viewing size, and revise only what keeps the first picture from working.",
+      "sources": [
+        [
+          "Lovescape editorial guide to character images and scene descriptions",
+          "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/"
+        ],
+        [
+          "Lovescape Help on traits and sample conversations",
+          "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape"
+        ]
+      ]
+    },
+    {
+      "order": 12,
+      "slug": "lovescape-compare-two-dialogue-drafts-with-the-same-character",
+      "title": "Compare Two Lovescape Dialogue Drafts With One Character",
+      "readerQuestion": "How can I choose between two sample replies without changing the character’s identity or backstory?",
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "notBefore": "2026-12-29T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "db3bccf1d88b7cd80861fb0022e134f2e14df3443853d8f7e842acc41cdc3383",
+      "wordCount": 235,
+      "editorialIntent": "Write two sample replies to the same fictional prompt and compare one observable behavior before using either.",
+      "sources": [
+        [
+          "Lovescape Help on traits and sample conversations",
+          "https://help.lovescape.com/hc/en-us/articles/26017175182097-What-Is-an-AI-Character-on-Lovescape"
+        ],
+        [
+          "Lovescape editorial guide to character images and scene descriptions",
+          "https://lovescape.com/blog/the-same-face-every-time-how-lovescape-keeps-your-character-consistent/"
         ]
       ]
     }
